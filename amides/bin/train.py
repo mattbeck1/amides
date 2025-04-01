@@ -197,6 +197,7 @@ def search_best_model_params(train_data):
 
 @execution_time
 def fit_model(train_data):
+    global model_params
     estimator = SVC(
         C=model_params["C"],
         kernel=model_params["kernel"],
