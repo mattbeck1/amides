@@ -10,12 +10,12 @@ import sys
 import os
 import json
 
-from amides.sigma import RuleSetDataset
-from amides.utils import set_log_level, get_logger
-from amides.features.tokenization import AnyWordCharacter
-from amides.features.preprocessing import FilterDummyCharacters, Lowercase
-from amides.features.filter import NumericValues, Strings
-from amides.features.extraction import CommandlineExtractor
+from amides.sigma import RuleSetDataset # type: ignore
+from amides.utils import set_log_level, get_logger # type: ignore
+from amides.features.tokenization import AnyWordCharacter # type: ignore
+from amides.features.preprocessing import FilterDummyCharacters, Lowercase # type: ignore
+from amides.features.filter import NumericValues, Strings # type: ignore
+from amides.features.extraction import CommandlineExtractor # type: ignore
 
 set_log_level("info")
 _logger = get_logger("tokenize")
@@ -81,8 +81,16 @@ def samples_file(samples_file_path: str):
         with open(samples_file_path, "r", encoding="utf-8") as in_file:
             for line in in_file:
                 stripped = line.rstrip("\n")
-
-                yield json.loads(stripped)
+                try:
+                    data = json.loads(stripped)
+                    cmdline = data.get("cmdline")
+                    if not isinstance(cmdline, str):
+                        _logger.warning(f"Skipping invalid 'cmdline': {cmdline}")
+                        continue
+                    yield cmdline
+                except json.JSONDecodeError:
+                    _logger.error(f"Invalid JSON line: {stripped}")
+                    continue
     except FileNotFoundError as err:
         _logger.error(err)
         sys.exit(1)

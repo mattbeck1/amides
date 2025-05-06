@@ -1,7 +1,7 @@
 {
     "estimator": "SVC",
     "estimator_params": {
-        "C": 1.3894954943731375,
+        "C": 0.7906043210907697,
         "break_ties": false,
         "cache_size": 2000,
         "class_weight": null,
@@ -20,27 +20,27 @@
     "data": {
         "train_data": {
             "shape": [
-                1161,
-                852
+                1212,
+                916
             ],
             "feature_info": [],
             "class_info": {
                 "num_positive_samples": 810,
-                "num_negative_samples": 351,
-                "positive_negative_ratio": 2.3076923076923075
+                "num_negative_samples": 402,
+                "positive_negative_ratio": 2.014925373134328
             }
         },
         "test_data": null,
         "valid_data": {
             "shape": [
-                355,
-                852
+                811,
+                916
             ],
             "feature_info": [],
             "class_info": {
-                "num_positive_samples": 4,
+                "num_positive_samples": 460,
                 "num_negative_samples": 351,
-                "positive_negative_ratio": 0.011396011396011397
+                "positive_negative_ratio": 1.3105413105413106
             }
         },
         "name": "misuse_svc_rules_tainted_10_f1"
@@ -49,10 +49,10 @@
     "tainted_seed": 14,
     "scaler": {
         "type": "MinMaxScaler",
-        "data_min": -1.5042968734083189,
-        "data_max": 1.5042968734083189,
-        "range": 3.0085937468166377,
-        "scale": 0.33238120004008176,
+        "data_min": -1.502902673393797,
+        "data_max": 1.502902673393797,
+        "range": 3.005805346787594,
+        "scale": 0.3326895406147088,
         "min": 0.5
     },
     "feature_extractors": [

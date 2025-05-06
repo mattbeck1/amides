@@ -1,0 +1,350 @@
+Match File,Evasion File,Field,Match Value,Evasion Value,TrivialChange
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'name': 'NIAMOD', 'domain': 'EMANRESU'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'NOTSYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'client1', 'domain': 'BREACH'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'client1', 'domain': 'BREACH'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client1', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'client1', 'domain': 'BREACH'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'client1', 'domain': 'BREACH'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'client1', 'domain': 'BREACH'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'name': 'client1', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'CLIENT2', 'name': 'setup'}","{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'NETWORK SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'NETWORK SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'NETWORK SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client3', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT2', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client3', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_09.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'CLIENT3', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'client', 'name': 'breach'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_10.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_10.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'client3', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'setup'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'setup'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'client2', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client3'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'name': 'client3', 'domain': 'BREACH'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_07.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_08.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'BREACH', 'name': 'client2'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'LOCAL SERVICE', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'CLIENT1', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'name': 'setup', 'domain': 'client'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client1'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'BREACH', 'name': 'client2'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_06.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_02.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}","{'domain': 'client', 'name': 'breach'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'client', 'name': 'breach'}","{'name': 'SYSTEM', 'domain': 'NT AUTHORITY'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'SYSTEM'}",False
+Microsoft-Windows-Sysmon_1_Match_01.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'client', 'name': 'breach'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_02.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'client', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_03.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'CLIENT3', 'name': 'setup'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_04.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'BREACH', 'name': 'client3'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_01.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'domain': 'NT AUTHORITY', 'name': 'LOCAL SERVICE'}",False
+Microsoft-Windows-Sysmon_1_Match_05.json,Microsoft-Windows-Sysmon_1_Evasion_Cmdline_05.json,user,"{'domain': 'BREACH', 'name': 'client1'}","{'name': 'client3', 'domain': 'BREACH'}",False

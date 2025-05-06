@@ -1,0 +1,52 @@
+{
+    "estimator": "SVC",
+    "estimator_params": {
+        "C": 0.01,
+        "break_ties": false,
+        "cache_size": 2000,
+        "class_weight": "balanced",
+        "coef0": 0.0,
+        "decision_function_shape": "ovr",
+        "degree": 3,
+        "gamma": "scale",
+        "kernel": "linear",
+        "max_iter": -1,
+        "probability": false,
+        "random_state": null,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    },
+    "data": {
+        "train_data": {
+            "shape": [
+                10810,
+                700
+            ],
+            "feature_info": [],
+            "class_info": {
+                "num_positive_samples": 810,
+                "num_negative_samples": 10000,
+                "positive_negative_ratio": 0.081
+            }
+        },
+        "test_data": null,
+        "valid_data": null,
+        "name": "benign_model"
+    },
+    "tainted_share": 0.0,
+    "tainted_seed": 81,
+    "scaler": {
+        "type": "MinMaxScaler",
+        "data_min": -0.9937929518104556,
+        "data_max": 0.9937929518104556,
+        "range": 1.9875859036209111,
+        "scale": 0.5031229081360643,
+        "min": 0.5
+    },
+    "feature_extractors": [
+        "TfidfVectorizer"
+    ],
+    "name": "benign_model_0",
+    "timestamp": ""
+}

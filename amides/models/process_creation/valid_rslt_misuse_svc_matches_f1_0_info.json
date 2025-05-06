@@ -1,7 +1,7 @@
 {
     "estimator": "SVC",
     "estimator_params": {
-        "C": 2.8117686979742307,
+        "C": 2.44205309454865,
         "break_ties": false,
         "cache_size": 2000,
         "class_weight": null,
@@ -20,27 +20,27 @@
     "data": {
         "train_data": {
             "shape": [
-                801,
-                1125
+                811,
+                1142
             ],
             "feature_info": [],
             "class_info": {
-                "num_positive_samples": 451,
+                "num_positive_samples": 461,
                 "num_negative_samples": 350,
-                "positive_negative_ratio": 1.2885714285714285
+                "positive_negative_ratio": 1.3171428571428572
             }
         },
         "test_data": null,
         "valid_data": {
             "shape": [
-                802,
-                1125
+                812,
+                1142
             ],
             "feature_info": [],
             "class_info": {
-                "num_positive_samples": 451,
+                "num_positive_samples": 461,
                 "num_negative_samples": 351,
-                "positive_negative_ratio": 1.2849002849002849
+                "positive_negative_ratio": 1.3133903133903133
             }
         },
         "name": "misuse_svc_matches_f1"
@@ -49,10 +49,10 @@
     "tainted_seed": 81,
     "scaler": {
         "type": "MinMaxScaler",
-        "data_min": -1.8346897854344457,
-        "data_max": 1.8346897854344457,
-        "range": 3.6693795708688914,
-        "scale": 0.27252563565213417,
+        "data_min": -1.8352514280869028,
+        "data_max": 1.8352514280869028,
+        "range": 3.6705028561738056,
+        "scale": 0.2724422345341578,
         "min": 0.49999999999999994
     },
     "feature_extractors": [
